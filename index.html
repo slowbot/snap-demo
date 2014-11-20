@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <meta charset="utf-8">
+      <title>Demo</title>
+        <style>
+          body { 
+            min-height: 2000px;
+          }
+          
+          .container { 
+            width: 100%; 
+          }
+          
+          h2,h3 { 
+            color: #eee; 
+          }
+          
+          .column { 
+            height: 600px;
+            background: #ddd;
+            margin: 100px 0 100px 0;
+            padding: 40px;
+           }
+        </style>
+    </head>
+    <body>
+      <div class="container">
+        <h2>Title</h2>
+        <div class="row">
+          <div class="column col-xs-12 col-md-12">
+            <h3>GP SVG 1</h3>
+             <svg id="gpsvg1"></svg>
+          </div>
+          <div class="column col-xs-12 col-md-12">
+            <h3>GP SVG 2</h3>
+            <svg id="gpsvg2"></svg>
+          </div>
+        </div> 
+      </div><!-- Container -->
+      <script src="js/jquery-1.9.0.min.js"></script>
+
+      <script src="js/snap.svg.js"></script>
+      <script src="js/app.js"></script>
+    </body>
+</html>
