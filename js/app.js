@@ -40,7 +40,7 @@ $(document).scroll(function() {
          fill: '#eee',
          transform: 't0,0',
          opacity: 1
-       }, 500, mina.bounce);
+       }, 1000, mina.bounce);
         
     $('body').css('background','pink');
    }
