@@ -41,11 +41,45 @@ $(function() {
 	e.element_6.matrix.translate(-9999,0);
 
 	for(var i in e) {
-		e[i].element.transform({localMatrix: e[i].matrix});
+		e[i].element.transform(e[i].matrix);
 	}
 
-	e.data_access.matrix.scale(2,2);
-	e.data_access.element.animate({ transform: e.data_access.matrix },3000);
+			e.data_access.matrix.scale(2,2);
+			e.data_access.element.animate({ transform: e.data_access.matrix },300);
+			e.hdfs.matrix.translate(0,0);
+			e.hdfs.matrix.scale(2,2);
+			e.hdfs.element.animate({ transform: e.hdfs.matrix },300);
+
+	var base = [];
+	base.controller = new ScrollMagic();
+	base.masterTimeline = new TimelineMax();
+
+	base.controller.addScene([
+	    new ScrollScene({
+	    		offset: 200,
+	    		duration: 20
+	    	}).setTween(base.masterTimeline)
+	]);
+
+	function setInitialStates() {
+	  var tl = new TimelineMax();
+	  tl
+	  .set(e.data_access.element, {
+	    snap: {
+	        tx: 150
+	    }
+	  });
+	  
+	  return tl;
+	}
+	base.masterTimeline
+	  .add(setInitialStates())
+	  .to(e.data_access.element, 3, {
+	    snap: {
+	      tx: 0
+	    }
+	  });
+
 
   });
 });
