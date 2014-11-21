@@ -29,7 +29,7 @@ $(function() {
 		s.append(element);
 	}
 
-	e.hdfs.matrix.translate(-9999,0);
+	e.hdfs.matrix.translate(-1000,-100);
 	e.security.matrix.translate(-9999,0);
 	e.operations.matrix.translate(-9999,0);
 	e.governance_integration.matrix.translate(-9999,0);
@@ -49,15 +49,33 @@ $(function() {
 	 // container: '#example-wrapper',
 	 // loglevel: 3
 	});
-	base.masterTimeline = new TimelineMax();
+	base.data_access_timeline = new TimelineMax();
+	base.hdfs_timeline = new TimelineMax();
 
+	new ScrollScene({
+		    	triggerElement: '#content-wrapper',
+	    		offset: 400,
+	    		duration: 4000
+	    	})
+	    	.setPin('#pin')
+	    	//.setTween(base.hdfs_timeline)
+	    	.addTo(base.controller);
 	new ScrollScene({
 		    	triggerElement: '#content-wrapper',
 	    		offset: 400,
 	    		duration: 2000
 	    	})
-	    	.setPin('#pin')
-	    	.setTween(base.masterTimeline)
+	    	//.setPin('#pin')
+	    	.setTween(base.data_access_timeline)
+	    	.addTo(base.controller);
+
+	new ScrollScene({
+		    	triggerElement: '#content-wrapper',
+	    		offset: 800,
+	    		duration: 2000
+	    	})
+	    	//.setPin('#pin')
+	    	.setTween(base.hdfs_timeline)
 	    	.addTo(base.controller);
 
 	function setInitialStates() {
@@ -65,17 +83,39 @@ $(function() {
 	  tl
 	  .set(e.data_access.element, {
 	    snap: {
-	        scale: 2
+	        scale: 4,
+	        tx: 150
 	    }
 	  });
 	  
 	  return tl;
 	}
-	base.masterTimeline
+	base.data_access_timeline
 	  .add(setInitialStates())
 	  .to(e.data_access.element, 1, {
 	    snap: {
-	      scale: 1
+	      scale: 2,
+	      ty: 100
+	    }
+	  });
+
+	function setInitialHDFSStates() {
+	  var tl = new TimelineMax();
+	  tl
+	  .set(e.hdfs.element, {
+	    snap: {
+	    	scale: 2,
+	        tx: -2000
+	    }
+	  });
+	  
+	  return tl;
+	}
+	base.hdfs_timeline
+	  .add(setInitialHDFSStates())
+	  .to(e.hdfs.element, 1, {
+	    snap: {
+	      tx: 150
 	    }
 	  });
 
