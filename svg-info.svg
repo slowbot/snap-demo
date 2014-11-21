@@ -1,1 +1,31 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 769.5 577.1" enable-background="new 0 0 769.5 577.1"><style type="text/css">.st0{fill:none;stroke:#000000;stroke-miterlimit:10;} .st1{font-family:&apos;MyriadPro-Regular&apos;;} .st2{font-size:12;}</style><path class="st0" d="M65.4 33.1h528v128h-528z"/><text transform="translate(97.441 145.081)" class="st1 st2">Applications</text><text transform="translate(97.441 289.081)" class="st1 st2">Data Systems</text><text transform="translate(97.441 433.081)" class="st1 st2">Sources</text><text transform="translate(625.441 401.081)" class="st1 st2">Tools</text><path class="st0" d="M65.4 321.1h528v128h-528zM65.4 177.1h528v128h-528zM321.4 177.1h272v128h-272z"/><circle cx="129.4" cy="81.1" r="32"/><circle cx="210" cy="81.1" r="32"/><circle cx="290.6" cy="81.1" r="32"/><circle cx="371.2" cy="81.1" r="32"/><circle cx="451.8" cy="81.1" r="32"/><circle cx="532.4" cy="81.1" r="32"/><circle cx="129.4" cy="377.1" r="32"/><circle cx="210" cy="377.1" r="32"/><circle cx="290.6" cy="377.1" r="32"/><circle cx="371.2" cy="377.1" r="32"/><circle cx="451.8" cy="377.1" r="32"/><circle cx="532.4" cy="377.1" r="32"/><path class="st0" d="M609.4 97.1h108v320h-108z"/><text transform="translate(353.441 273.081)" class="st1 st2">Hortonworks</text></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 769.5 577.1" enable-background="new 0 0 769.5 577.1">
+
+  <style type="text/css">
+
+    .st0{fill:none;stroke:#000000;stroke-miterlimit:10;} .st1{font-family:&apos;MyriadPro-Regular&apos;;} .st2{font-size:12;}</style>
+
+    <path class="st0" d="M65.4 33.1h528v128h-528z"/>
+
+    <text transform="translate(97.441 145.081)" class="st1 st2">Applications</text>
+
+    <text transform="translate(97.441 289.081)" class="st1 st2">Data Systems</text>
+    <text transform="translate(97.441 433.081)" class="st1 st2">Sources</text>
+    <text transform="translate(625.441 401.081)" class="st1 st2">Tools</text>
+
+    <path class="st0" d="M65.4 321.1h528v128h-528zM65.4 177.1h528v128h-528zM321.4 177.1h272v128h-272z"/>
+
+    <circle cx="129.4" cy="81.1" r="32"/>
+    <circle cx="210" cy="81.1" r="32"/>
+    <circle cx="290.6" cy="81.1" r="32"/>
+    <circle cx="371.2" cy="81.1" r="32"/>
+    <circle cx="451.8" cy="81.1" r="32"/>
+    <circle cx="532.4" cy="81.1" r="32"/>
+    <circle cx="129.4" cy="377.1" r="32"/>
+    <circle cx="210" cy="377.1" r="32"/>
+    <circle cx="290.6" cy="377.1" r="32"/>
+    <circle cx="371.2" cy="377.1" r="32"/>
+    <circle cx="451.8" cy="377.1" r="32"/>
+    <circle cx="532.4" cy="377.1" r="32"/>
+    <path class="st0" d="M609.4 97.1h108v320h-108z"/>
+
+    <text transform="translate(353.441 273.081)" class="st1 st2">Hortonworks</text></svg>
