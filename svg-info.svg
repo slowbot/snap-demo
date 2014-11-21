@@ -1,31 +1,32 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 769.5 577.1" enable-background="new 0 0 769.5 577.1">
-
-  <style type="text/css">
-
-    .st0{fill:none;stroke:#000000;stroke-miterlimit:10;} .st1{font-family:&apos;MyriadPro-Regular&apos;;} .st2{font-size:12;}</style>
-
-    <path class="st0" d="M65.4 33.1h528v128h-528z"/>
-
-    <text transform="translate(97.441 145.081)" class="st1 st2">Applications</text>
-
-    <text transform="translate(97.441 289.081)" class="st1 st2">Data Systems</text>
-    <text transform="translate(97.441 433.081)" class="st1 st2">Sources</text>
-    <text transform="translate(625.441 401.081)" class="st1 st2">Tools</text>
-
-    <path class="st0" d="M65.4 321.1h528v128h-528zM65.4 177.1h528v128h-528zM321.4 177.1h272v128h-272z"/>
-
-    <circle cx="129.4" cy="81.1" r="32"/>
-    <circle cx="210" cy="81.1" r="32"/>
-    <circle cx="290.6" cy="81.1" r="32"/>
-    <circle cx="371.2" cy="81.1" r="32"/>
-    <circle cx="451.8" cy="81.1" r="32"/>
-    <circle cx="532.4" cy="81.1" r="32"/>
-    <circle cx="129.4" cy="377.1" r="32"/>
-    <circle cx="210" cy="377.1" r="32"/>
-    <circle cx="290.6" cy="377.1" r="32"/>
-    <circle cx="371.2" cy="377.1" r="32"/>
-    <circle cx="451.8" cy="377.1" r="32"/>
-    <circle cx="532.4" cy="377.1" r="32"/>
-    <path class="st0" d="M609.4 97.1h108v320h-108z"/>
-
-    <text transform="translate(353.441 273.081)" class="st1 st2">Hortonworks</text></svg>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="342px" height="342px" viewBox="0 0 342 342" enable-background="new 0 0 342 342" xml:space="preserve">
+<g id="data_access">
+	<path fill="none" stroke="#000000" stroke-miterlimit="10" d="M10.567,85.467h223.167v56.889H10.567V85.467z"/>
+	<text transform="matrix(1 0 0 1 23.3066 99.2363)" font-family="'MyriadPro-Regular'" font-size="5.3333">Data Access</text>
+</g>
+<g id="hdfs">
+	<text transform="matrix(1 0 0 1 23.3066 198.2363)" font-family="'MyriadPro-Regular'" font-size="5.3333">HDFS (Data Management)</text>
+	<path fill="none" stroke="#000000" stroke-miterlimit="10" d="M10.567,148.467h223.167v56.889H10.567V148.467z"/>
+</g>
+<circle id="element_1" cx="39.378" cy="139.927" r="13.349"/>
+<circle id="element_2" cx="73.001" cy="139.927" r="13.349"/>
+<circle id="element_3" cx="106.625" cy="139.927" r="13.349"/>
+<circle id="element_4" cx="140.248" cy="139.927" r="13.349"/>
+<circle id="element_5" cx="173.871" cy="139.927" r="13.349"/>
+<circle id="element_6" cx="207.495" cy="139.927" r="13.349"/>
+<g id="security">
+	<text transform="matrix(1 0 0 1 247.9746 98.0137)" font-family="'MyriadPro-Regular'" font-size="5.3333">Security</text>
+	<path fill="none" stroke="#000000" stroke-miterlimit="10" d="M240.844,85.911h48.001v119.444h-48.001V85.911z"/>
+</g>
+<g id="governance_integration">
+	<text transform="matrix(1 0 0 1 -36.5259 98.0137)" enable-background="new    "><tspan x="0" y="0" font-family="'MyriadPro-Regular'" font-size="5.3333">Governance</tspan><tspan x="0" y="6.4" font-family="'MyriadPro-Regular'" font-size="5.3333">Integration</tspan></text>
+	<path fill="none" stroke="#000000" stroke-miterlimit="10" d="M-43.656,85.911H4.345v119.444h-48.001V85.911z"/>
+</g>
+<g id="operations">
+	<text transform="matrix(1 0 0 1 302.1289 98.0137)" font-family="'MyriadPro-Regular'" font-size="5.3333">Operations</text>
+	<path fill="none" stroke="#000000" stroke-miterlimit="10" d="M294.999,85.911H343v119.444h-48.001V85.911z"/>
+</g>
+</svg>

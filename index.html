@@ -15,6 +15,12 @@
           h2,h3 { 
             color: #eee; 
           }
+          #svg {
+            width: 100%;
+            box-sizing: border-box;
+            padding: 28.125%;
+            height: 0;
+          }
           
           .column { 
             height: 600px;
@@ -27,7 +33,7 @@
     </head>
     <body>
       <div class="container">
-        <svg id="svg" style="width: 500px; height: 500px;">
+        <svg id="svg">
             
             </svg>
           </div>
@@ -36,14 +42,6 @@
       <script src="js/jquery-1.9.0.min.js"></script>
       <script src="js/jquery.scrollmagic.js"></script>
       <script src="js/snap.svg.js"></script>
-      <script src="js/app.js"></script>
-      <script>
-        $(function() {
-          var s = Snap("#svg");
-          Snap.load("svg-info.svg", function(f) {
-            s.append(f);
-          });
-        })
-      </script>
+      <script src="js/application.js"></script>
     </body>
 </html>
