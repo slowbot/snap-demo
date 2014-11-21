@@ -32,12 +32,6 @@ $(function() {
 	e.security.matrix.translate(-9999,0);
 	e.operations.matrix.translate(-9999,0);
 	e.governance_integration.matrix.translate(-9999,0);
-	e.element_1.matrix.translate(-9999,0);
-	e.element_2.matrix.translate(-9999,0);
-	e.element_3.matrix.translate(-9999,0);
-	e.element_4.matrix.translate(-9999,0);
-	e.element_5.matrix.translate(-9999,0);
-	e.element_6.matrix.translate(-9999,0);
 
 	for(var i in e) {
 		e[i].element.transform(e[i].matrix);
@@ -46,53 +40,159 @@ $(function() {
 	var base = [];
 	base.controller = new ScrollMagic();
 
-	base.hdfs_timeline = new TimelineMax()
-		.set(e.hdfs.element, {
-			snap: {
-			    scale: 2,
-			}
+
+
+	new ScrollScene({
+	    	triggerElement: '#content-wrapper',
+    		offset: 400,
+    		duration: 4000
+    	})
+    	.setPin('#pin')
+    	.addTo(base.controller);
+
+	new ScrollScene({
+	    	triggerElement: '#content-wrapper',
+			offset: 400,
+			duration: 1500
 		})
-		.to(e.hdfs.element, 1, {
-			snap: {
-			  scale: 1,
-			}
-		});
+		.setTween(new TimelineMax()
+			.set(e.hdfs.element, {
+				snap: {
+				    scale: 2,
+				}
+			})
+			.to(e.hdfs.element, 1, {
+				snap: {
+				  scale: 1,
+				}
+			}))
+		.addTo(base.controller);
 
-	base.data_access_timeline = new TimelineMax()
-		.set(e.data_access.element, {
-			snap: {
-			    tx: -2000
-			}
+	new ScrollScene({
+	    	triggerElement: '#content-wrapper',
+			offset: 800,
+			duration: 1500
 		})
-		.to(e.data_access.element, 1, {
-			snap: {
-			  tx: 0
-			}
-		});
+		.setTween(new TimelineMax()
+			.set(e.data_access.element, {
+				snap: {
+				    tx: -2000
+				}
+			})
+			.to(e.data_access.element, 1, {
+				snap: {
+				  tx: 0
+				}
+			}))
+		.addTo(base.controller);
 
 	new ScrollScene({
-		    	triggerElement: '#content-wrapper',
-	    		offset: 400,
-	    		duration: 4000
-	    	})
-	    	.setPin('#pin')
-	    	.addTo(base.controller);
+	    	triggerElement: '#content-wrapper',
+			offset: 1900,
+			duration: 200
+		})
+		.setTween(new TimelineMax()
+			.set(e.element_1.element, {
+				snap: {
+				    opacity: 0
+				}
+			})
+			.to(e.element_1.element, 1, {
+				snap: {
+				  opacity: 1
+				}
+			}))
+		.addTo(base.controller);
 
 	new ScrollScene({
-		    	triggerElement: '#content-wrapper',
-	    		offset: 400,
-	    		duration: 1500
-	    	})
-	    	.setTween(base.hdfs_timeline)
-	    	.addTo(base.controller);
+	    	triggerElement: '#content-wrapper',
+			offset: 1950,
+			duration: 200
+		})
+		.setTween(new TimelineMax()
+			.set(e.element_2.element, {
+				snap: {
+				    opacity: 0
+				}
+			})
+			.to(e.element_2.element, 1, {
+				snap: {
+				  opacity: 1
+				}
+			}))
+		.addTo(base.controller);
 
 	new ScrollScene({
-		    	triggerElement: '#content-wrapper',
-	    		offset: 800,
-	    		duration: 1500
-	    	})
-	    	.setTween(base.data_access_timeline)
-	    	.addTo(base.controller);
+	    	triggerElement: '#content-wrapper',
+			offset: 2000,
+			duration: 200
+		})
+		.setTween(new TimelineMax()
+			.set(e.element_3.element, {
+				snap: {
+				    opacity: 0
+				}
+			})
+			.to(e.element_3.element, 1, {
+				snap: {
+				  opacity: 1
+				}
+			}))
+		.addTo(base.controller);
+
+	new ScrollScene({
+	    	triggerElement: '#content-wrapper',
+			offset: 2050,
+			duration: 200
+		})
+		.setTween(new TimelineMax()
+			.set(e.element_4.element, {
+				snap: {
+				    opacity: 0
+				}
+			})
+			.to(e.element_4.element, 1, {
+				snap: {
+				  opacity: 1
+				}
+			}))
+		.addTo(base.controller);
+
+	new ScrollScene({
+	    	triggerElement: '#content-wrapper',
+			offset: 2100,
+			duration: 200
+		})
+		.setTween(new TimelineMax()
+			.set(e.element_5.element, {
+				snap: {
+				    opacity: 0
+				}
+			})
+			.to(e.element_5.element, 1, {
+				snap: {
+				  opacity: 1
+				}
+			}))
+		.addTo(base.controller);
+
+	new ScrollScene({
+	    	triggerElement: '#content-wrapper',
+			offset: 2150,
+			duration: 200
+		})
+		.setTween(new TimelineMax()
+			.set(e.element_6.element, {
+				snap: {
+				    opacity: 0
+				}
+			})
+			.to(e.element_6.element, 1, {
+				snap: {
+				  opacity: 1
+				}
+			}))
+		.addTo(base.controller);
 
 
 
