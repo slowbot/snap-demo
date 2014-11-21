@@ -29,6 +29,21 @@ $(function() {
 		s.append(element);
 	}
 
+	e.hdfs.matrix.translate(-9999,0);
+	e.security.matrix.translate(-9999,0);
+	e.operations.matrix.translate(-9999,0);
+	e.governance_integration.matrix.translate(-9999,0);
+	e.element_1.matrix.translate(-9999,0);
+	e.element_2.matrix.translate(-9999,0);
+	e.element_3.matrix.translate(-9999,0);
+	e.element_4.matrix.translate(-9999,0);
+	e.element_5.matrix.translate(-9999,0);
+	e.element_6.matrix.translate(-9999,0);
+
+	for(var i in e) {
+		e[i].element.transform({localMatrix: e[i].matrix});
+	}
+
 	e.data_access.matrix.scale(2,2);
 	e.data_access.element.animate({ transform: e.data_access.matrix },3000);
 
