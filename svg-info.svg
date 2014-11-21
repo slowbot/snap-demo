@@ -1,31 +1,21 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 769.5 577.1" enable-background="new 0 0 769.5 577.1">
-
-  <style type="text/css">
-
-    .st0{fill:none;stroke:#000000;stroke-miterlimit:10;} .st1{font-family:&apos;MyriadPro-Regular&apos;;} .st2{font-size:12;}</style>
-
-    <path class="st0" d="M65.4 33.1h528v128h-528z"/>
-
-    <text transform="translate(97.441 145.081)" class="st1 st2">Applications</text>
-
-    <text transform="translate(97.441 289.081)" class="st1 st2">Data Systems</text>
-    <text transform="translate(97.441 433.081)" class="st1 st2">Sources</text>
-    <text transform="translate(625.441 401.081)" class="st1 st2">Tools</text>
-
-    <path class="st0" d="M65.4 321.1h528v128h-528zM65.4 177.1h528v128h-528zM321.4 177.1h272v128h-272z"/>
-
-    <circle cx="129.4" cy="81.1" r="32"/>
-    <circle cx="210" cy="81.1" r="32"/>
-    <circle cx="290.6" cy="81.1" r="32"/>
-    <circle cx="371.2" cy="81.1" r="32"/>
-    <circle cx="451.8" cy="81.1" r="32"/>
-    <circle cx="532.4" cy="81.1" r="32"/>
-    <circle cx="129.4" cy="377.1" r="32"/>
-    <circle cx="210" cy="377.1" r="32"/>
-    <circle cx="290.6" cy="377.1" r="32"/>
-    <circle cx="371.2" cy="377.1" r="32"/>
-    <circle cx="451.8" cy="377.1" r="32"/>
-    <circle cx="532.4" cy="377.1" r="32"/>
-    <path class="st0" d="M609.4 97.1h108v320h-108z"/>
-
-    <text transform="translate(353.441 273.081)" class="st1 st2">Hortonworks</text></svg>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 18.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="-174 116 960 560" enable-background="new -174 116 960 560" xml:space="preserve">
+<path fill="none" stroke="#000000" stroke-miterlimit="10" d="M32.3,191.4h452.1V301H32.3L32.3,191.4z"/>
+<text transform="matrix(1 0 0 1 59.7699 219.9458)" font-family="'MyriadPro-Regular'" font-size="10.2746">Data Acccess</text>
+<text transform="matrix(1 0 0 1 59.7699 451.6731)" font-family="'MyriadPro-Regular'" font-size="10.2746">Data Management</text>
+<text transform="matrix(1 0 0 1 -58.1452 451.6735)" font-family="'MyriadPro-Regular'" font-size="10.2746">Governance</text>
+<path fill="none" stroke="#000000" stroke-miterlimit="10" d="M32.3,307.8h452.1v157.5H32.3L32.3,307.8z"/>
+<circle cx="87.1" cy="307.8" r="27.4"/>
+<circle cx="156.1" cy="307.8" r="27.4"/>
+<circle cx="225.2" cy="307.8" r="27.4"/>
+<circle cx="294.2" cy="307.8" r="27.4"/>
+<circle cx="363.2" cy="307.8" r="27.4"/>
+<circle cx="432.2" cy="307.8" r="27.4"/>
+<path fill="none" stroke="#000000" stroke-miterlimit="10" d="M-71.9,191.4h92.5v274h-92.5V191.4z"/>
+<text transform="matrix(1 0 0 1 510.1882 451.6735)" font-family="'MyriadPro-Regular'" font-size="10.2746">Security</text>
+<path fill="none" stroke="#000000" stroke-miterlimit="10" d="M496.5,191.4h92.5v274h-92.5V191.4z"/>
+<text transform="matrix(1 0 0 1 611.8549 451.6735)" font-family="'MyriadPro-Regular'" font-size="10.2746">Operations</text>
+<path fill="none" stroke="#000000" stroke-miterlimit="10" d="M598.1,191.4h92.5v274h-92.5V191.4z"/>
+</svg>
