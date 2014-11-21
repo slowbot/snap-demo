@@ -19,27 +19,71 @@
           .column { 
             height: 600px;
             background: #ddd;
-            margin: 100px 0 100px 0;
+            margin: 200px 0 100px 0;
             padding: 40px;
            }
+
         </style>
     </head>
     <body>
       <div class="container">
+        <svg style="display: none;">
+            <defs>
+               <g id="block-1">
+                <path class="st0" stroke="#000" stroke-miterlimit="10" fill="none" d="M65.4 33.1h528v128h-528z"/>
+               </g>
+
+               <text id="h-applications" transform="translate(97.441 145.081)" font-family="'MyriadPro-Regular'" font-size="12">Applications</text>
+               <text id="h-datasystems" transform="translate(97.441 289.081)" font-family="'MyriadPro-Regular'" font-size="12">Data Systems</text>
+               <text id="h-sources" transform="translate(97.441 433.081)" font-family="'MyriadPro-Regular'" font-size="12">Sources</text>
+               <text id="h-tools" transform="translate(625.441 401.081)" font-family="'MyriadPro-Regular'" font-size="12">Tools</text>
+
+              <g id="block-2">
+                <path stroke="#000" stroke-miterlimit="10" fill="none" d="M65.4 321.1h528v128h-528zM65.4 177.1h528v128h-528zM321.4 177.1h272v128h-272z"/>
+              </g>
+
+              <g id="circles-1">
+               <circle cx="256" cy="176" r="32"/>
+               <circle cx="336.6" cy="176" r="32"/>
+               <circle cx="417.2" cy="176" r="32"/>
+               <circle cx="497.8" cy="176" r="32"/>
+               <circle cx="578.4" cy="176" r="32"/>
+               <circle cx="659" cy="176" r="32"/>
+               <circle cx="256" cy="472" r="32"/>
+               <circle cx="336.6" cy="472" r="32"/>
+               <circle cx="417.2" cy="472" r="32"/>
+               <circle cx="497.8" cy="472" r="32"/>
+               <circle cx="578.4" cy="472" r="32"/>
+               <circle cx="659" cy="472" r="32"/>
+              </g>
+
+              <g id="block-3">
+               <path stroke="#000" stroke-miterlimit="10" fill="none" d="M609.4 97.1h108v320h-108z"/>
+              </g>
+
+              <text id="h-horton" transform="translate(353.441 273.081)" font-family="'MyriadPro-Regular'" font-size="12">Hortonworks</text>
+            </defs>
+          </svg>
+
         <h2>Title</h2>
         <div class="row">
           <div class="column col-xs-12 col-md-12">
             <h3>GP SVG 1</h3>
-             <svg id="gpsvg1"></svg>
-          </div>
-          <div class="column col-xs-12 col-md-12">
-            <h3>GP SVG 2</h3>
-            <svg id="gpsvg2"></svg>
+            <svg id="info" viewBox="0 0 769 577" preserveAspectRatio="xMinYMax meet">
+              <use xlink:href="#block-1"></use>
+              <use xlink:href="#h-applications"></use>
+              <use xlink:href="#h-datasystems"></use>
+              <use xlink:href="#h-sources"></use>
+              <use xlink:href="#h-tools"></use>
+              <use xlink:href="#block-2"></use>
+              <use xlink:href="#h-horton"></use>
+              <use xlink:href="#block-3"></use>
+            </svg>
           </div>
         </div> 
       </div><!-- Container -->
       <script src="js/jquery-1.9.0.min.js"></script>
-
+      <script src="js/jquery.scrollmagic.js"></script>
       <script src="js/snap.svg.js"></script>
       <script src="js/app.js"></script>
     </body>
