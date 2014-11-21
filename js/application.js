@@ -45,19 +45,20 @@ $(function() {
 	}
 
 	var base = [];
-	base.controller = new ScrollMagic();
+	base.controller = new ScrollMagic({
+	 // container: '#example-wrapper',
+	 // loglevel: 3
+	});
 	base.masterTimeline = new TimelineMax();
 
-	base.controller.addScene([
-	    new ScrollScene({
-		    	triggerElement: '#main',
+	new ScrollScene({
+		    	triggerElement: '#content-wrapper',
 	    		offset: 400,
 	    		duration: 2000
 	    	})
 	    	.setPin('#pin')
 	    	.setTween(base.masterTimeline)
-	    	.addTo(base.controller)
-	]);
+	    	.addTo(base.controller);
 
 	function setInitialStates() {
 	  var tl = new TimelineMax();
