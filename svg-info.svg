@@ -2,31 +2,33 @@
 <!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="342px" height="342px" viewBox="0 0 342 342" enable-background="new 0 0 342 342" xml:space="preserve">
+	 width="791px" height="791px" viewBox="-195.5 -253.5 791 791" enable-background="new -195.5 -253.5 791 791"
+	 xml:space="preserve">
 <g id="data_access">
-	<path fill="none" stroke="#000000" stroke-miterlimit="10" d="M10.567,85.467h223.167v56.889H10.567V85.467z"/>
-	<text transform="matrix(1 0 0 1 23.3066 99.2363)" font-family="'MyriadPro-Regular'" font-size="5.3333">Data Access</text>
+	<path fill="none" stroke="#000000" stroke-miterlimit="10" d="M27.378-2.623h435.766v111.084H27.378V-2.623z"/>
+	<text transform="matrix(1 0 0 1 52.2539 24.2637)" font-family="'MyriadPro-Regular'" font-size="10.414">Data Access</text>
 </g>
 <g id="hdfs">
-	<text transform="matrix(1 0 0 1 23.3066 198.2363)" font-family="'MyriadPro-Regular'" font-size="5.3333">HDFS (Data Management)</text>
-	<path fill="none" stroke="#000000" stroke-miterlimit="10" d="M10.567,148.467h223.167v56.889H10.567V148.467z"/>
+	<text transform="matrix(1 0 0 1 52.2539 217.5752)" font-family="'MyriadPro-Regular'" font-size="10.414">HDFS (Data Management)</text>
+	<path fill="none" stroke="#000000" stroke-miterlimit="10" d="M27.378,120.395h435.766v111.082H27.378V120.395z"/>
 </g>
-<circle id="element_1" cx="39.378" cy="139.927" r="13.349"/>
-<circle id="element_2" cx="73.001" cy="139.927" r="13.349"/>
-<circle id="element_3" cx="106.625" cy="139.927" r="13.349"/>
-<circle id="element_4" cx="140.248" cy="139.927" r="13.349"/>
-<circle id="element_5" cx="173.871" cy="139.927" r="13.349"/>
-<circle id="element_6" cx="207.495" cy="139.927" r="13.349"/>
+<circle id="element_1" cx="83.636" cy="103.719" r="26.066"/>
+<circle id="element_2" cx="149.29" cy="103.719" r="26.066"/>
+<circle id="element_3" cx="214.945" cy="103.719" r="26.066"/>
+<circle id="element_4" cx="280.599" cy="103.719" r="26.066"/>
+<circle id="element_5" cx="346.253" cy="103.719" r="26.066"/>
+<circle id="element_6" cx="411.907" cy="103.719" r="26.066"/>
 <g id="security">
-	<text transform="matrix(1 0 0 1 247.9746 98.0137)" font-family="'MyriadPro-Regular'" font-size="5.3333">Security</text>
-	<path fill="none" stroke="#000000" stroke-miterlimit="10" d="M240.844,85.911h48.001v119.444h-48.001V85.911z"/>
+	<text transform="matrix(1 0 0 1 490.9502 21.877)" font-family="'MyriadPro-Regular'" font-size="10.414">Security</text>
+	<path fill="none" stroke="#000000" stroke-miterlimit="10" d="M477.025-1.755h93.731v233.231h-93.731V-1.755z"/>
 </g>
 <g id="governance_integration">
-	<text transform="matrix(1 0 0 1 -36.5259 98.0137)" enable-background="new    "><tspan x="0" y="0" font-family="'MyriadPro-Regular'" font-size="5.3333">Governance</tspan><tspan x="0" y="6.4" font-family="'MyriadPro-Regular'" font-size="5.3333">Integration</tspan></text>
-	<path fill="none" stroke="#000000" stroke-miterlimit="10" d="M-43.656,85.911H4.345v119.444h-48.001V85.911z"/>
+	<text transform="matrix(1 0 0 1 -64.5771 21.877)" font-family="'MyriadPro-Regular'" font-size="10.414">Governance</text>
+	<text transform="matrix(1 0 0 1 -64.5771 34.374)" font-family="'MyriadPro-Regular'" font-size="10.414">Integration</text>
+	<path fill="none" stroke="#000000" stroke-miterlimit="10" d="M-78.5-1.755h93.729v233.231H-78.5V-1.755z"/>
 </g>
 <g id="operations">
-	<text transform="matrix(1 0 0 1 302.1289 98.0137)" font-family="'MyriadPro-Regular'" font-size="5.3333">Operations</text>
-	<path fill="none" stroke="#000000" stroke-miterlimit="10" d="M294.999,85.911H343v119.444h-48.001V85.911z"/>
+	<text transform="matrix(1 0 0 1 596.6943 21.877)" font-family="'MyriadPro-Regular'" font-size="10.414">Operations</text>
+	<path fill="none" stroke="#000000" stroke-miterlimit="10" d="M582.771-1.755H676.5v233.231h-93.729V-1.755z"/>
 </g>
 </svg>

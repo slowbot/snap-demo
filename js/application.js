@@ -29,7 +29,6 @@ $(function() {
 		s.append(element);
 	}
 
-	e.hdfs.matrix.translate(-1000,-100);
 	e.security.matrix.translate(-9999,0);
 	e.operations.matrix.translate(-9999,0);
 	e.governance_integration.matrix.translate(-9999,0);
@@ -45,12 +44,31 @@ $(function() {
 	}
 
 	var base = [];
-	base.controller = new ScrollMagic({
-	 // container: '#example-wrapper',
-	 // loglevel: 3
-	});
-	base.data_access_timeline = new TimelineMax();
-	base.hdfs_timeline = new TimelineMax();
+	base.controller = new ScrollMagic();
+
+	base.hdfs_timeline = new TimelineMax()
+		.set(e.hdfs.element, {
+			snap: {
+			    scale: 2,
+			}
+		})
+		.to(e.hdfs.element, 1, {
+			snap: {
+			  scale: 1,
+			}
+		});
+
+	base.data_access_timeline = new TimelineMax()
+		.set(e.data_access.element, {
+			snap: {
+			    tx: -2000
+			}
+		})
+		.to(e.data_access.element, 1, {
+			snap: {
+			  tx: 0
+			}
+		});
 
 	new ScrollScene({
 		    	triggerElement: '#content-wrapper',
@@ -58,66 +76,25 @@ $(function() {
 	    		duration: 4000
 	    	})
 	    	.setPin('#pin')
-	    	//.setTween(base.hdfs_timeline)
 	    	.addTo(base.controller);
+
 	new ScrollScene({
 		    	triggerElement: '#content-wrapper',
 	    		offset: 400,
-	    		duration: 2000
+	    		duration: 1500
 	    	})
-	    	//.setPin('#pin')
-	    	.setTween(base.data_access_timeline)
+	    	.setTween(base.hdfs_timeline)
 	    	.addTo(base.controller);
 
 	new ScrollScene({
 		    	triggerElement: '#content-wrapper',
 	    		offset: 800,
-	    		duration: 2000
+	    		duration: 1500
 	    	})
-	    	//.setPin('#pin')
-	    	.setTween(base.hdfs_timeline)
+	    	.setTween(base.data_access_timeline)
 	    	.addTo(base.controller);
 
-	function setInitialStates() {
-	  var tl = new TimelineMax();
-	  tl
-	  .set(e.data_access.element, {
-	    snap: {
-	        scale: 4,
-	        tx: 150
-	    }
-	  });
-	  
-	  return tl;
-	}
-	base.data_access_timeline
-	  .add(setInitialStates())
-	  .to(e.data_access.element, 1, {
-	    snap: {
-	      scale: 2,
-	      ty: 100
-	    }
-	  });
 
-	function setInitialHDFSStates() {
-	  var tl = new TimelineMax();
-	  tl
-	  .set(e.hdfs.element, {
-	    snap: {
-	    	scale: 2,
-	        tx: -2000
-	    }
-	  });
-	  
-	  return tl;
-	}
-	base.hdfs_timeline
-	  .add(setInitialHDFSStates())
-	  .to(e.hdfs.element, 1, {
-	    snap: {
-	      tx: 150
-	    }
-	  });
 
 
   });
