@@ -44,21 +44,19 @@ $(function() {
 		e[i].element.transform(e[i].matrix);
 	}
 
-			e.data_access.matrix.scale(2,2);
-			e.data_access.element.animate({ transform: e.data_access.matrix },300);
-			e.hdfs.matrix.translate(0,0);
-			e.hdfs.matrix.scale(2,2);
-			e.hdfs.element.animate({ transform: e.hdfs.matrix },300);
-
 	var base = [];
 	base.controller = new ScrollMagic();
 	base.masterTimeline = new TimelineMax();
 
 	base.controller.addScene([
 	    new ScrollScene({
-	    		offset: 200,
-	    		duration: 20
-	    	}).setTween(base.masterTimeline)
+		    	triggerElement: '#main',
+	    		offset: 400,
+	    		duration: 2000
+	    	})
+	    	.setPin('#pin')
+	    	.setTween(base.masterTimeline)
+	    	.addTo(base.controller)
 	]);
 
 	function setInitialStates() {
@@ -66,7 +64,7 @@ $(function() {
 	  tl
 	  .set(e.data_access.element, {
 	    snap: {
-	        tx: 150
+	        scale: 2
 	    }
 	  });
 	  
@@ -74,9 +72,9 @@ $(function() {
 	}
 	base.masterTimeline
 	  .add(setInitialStates())
-	  .to(e.data_access.element, 3, {
+	  .to(e.data_access.element, 1, {
 	    snap: {
-	      tx: 0
+	      scale: 1
 	    }
 	  });
 
