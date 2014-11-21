@@ -210,36 +210,13 @@ $(function() {
 			.to(e.governance_integration.element, 1, {
 				snap: {
 					opacity: 1,
-					tx: 200
+					tx: 0
 				}
 			}))
 		.addTo(base.controller);
 
-	new ScrollScene({
-	    	triggerElement: '#content-wrapper',
-			offset: 2750,
-			duration: 200
-		})
-		.setTween(new TimelineMax()
-			.to(e.data_access.element, 1, {
-				snap: {
-					tx: 200
-				}
-			}))
-		.addTo(base.controller);
 
-	new ScrollScene({
-	    	triggerElement: '#content-wrapper',
-			offset: 2750,
-			duration: 200
-		})
-		.setTween(new TimelineMax()
-			.to(e.hdfs.element, 1, {
-				snap: {
-					tx: 200
-				}
-			}))
-		.addTo(base.controller);
+	
 
 
 
