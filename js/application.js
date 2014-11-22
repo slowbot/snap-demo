@@ -289,7 +289,7 @@ $(function() {
 		})
 		.setTween(TweenMax.fromTo(".scrollContent", 0.5, 
 				{"left": "0px"},
-				{"left": "-100px",
+				{"left": "-50px",
 				ease: Linear.easeNone}
 
 			))
