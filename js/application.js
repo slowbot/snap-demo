@@ -218,8 +218,8 @@ $(function() {
 
 	new ScrollScene({
 	    	triggerElement: '#content-wrapper',
-			offset: 3190,
-			duration: 170
+			offset: 3150,
+			duration: 100
 		})
 		.setTween(TweenMax.fromTo(".scrollContent", 0.5, 
 				{"left": "0"},
