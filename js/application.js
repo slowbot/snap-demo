@@ -251,11 +251,11 @@ $(function() {
 	new ScrollScene({
 	    	triggerElement: '#content-wrapper',
 			offset: 3850,
-			duration: 100
+			duration: 50
 		})
 		.setTween(TweenMax.fromTo(".scrollContent", 0.5, 
 				{"left": "100px"},
-				{"left": "0px",
+				{"left": "50px",
 				ease: Linear.easeNone}
 
 			))
@@ -285,11 +285,11 @@ $(function() {
 	new ScrollScene({
 	    	triggerElement: '#content-wrapper',
 			offset: 4650,
-			duration: 100
+			duration: 50
 		})
 		.setTween(TweenMax.fromTo(".scrollContent", 0.5, 
-				{"left": "0px"},
-				{"left": "-100px",
+				{"left": "50px"},
+				{"left": "0px",
 				ease: Linear.easeNone}
 
 			))
