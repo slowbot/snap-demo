@@ -70,7 +70,7 @@ $(function() {
 	new ScrollScene({
 	    	triggerElement: '#content-wrapper',
 			offset: 800,
-			duration: 1500
+			duration: 2350
 		})
 		.setTween(new TimelineMax()
 			.set(e.data_access.element, {
@@ -79,11 +79,24 @@ $(function() {
 				    tx: -2000
 				}
 			})
-			.to(e.data_access.element, 1, {
+			.to(e.data_access.element, 2.3, {
 				snap: {
 					opacity: 1,
 					tx: 0
 				}
+			})
+			.to(e.data_access.element, 1.6, {
+				snap: {
+					opacity: 1,
+					tx: 0
+				}
+			})
+			.to(e.data_access.element, 0.3, {
+				snap: {
+					opacity: 1,
+					tx: 200
+				},
+				ease: Linear.easeNone
 			}))
 		.addTo(base.controller);
 
@@ -190,7 +203,7 @@ $(function() {
 			})
 			.to(e.element_6.element, 1, {
 				snap: {
-				  opacity: 1
+				  opacity: 1,
 				}
 			}))
 		.addTo(base.controller);
@@ -210,8 +223,30 @@ $(function() {
 			.to(e.governance_integration.element, 1, {
 				snap: {
 					opacity: 1,
-					tx: 0
+					tx: 200
+				},
+				ease: Linear.easeNone
+			}))
+		.addTo(base.controller);
+
+
+	new ScrollScene({
+	    	triggerElement: '#content-wrapper',
+			offset: 2980,
+			duration: 170
+		})
+		.setTween(new TimelineMax()
+			.set(e.hdfs.element, {
+				snap: {
+				    tx: 0
 				}
+			})
+			.to(e.hdfs.element, 1, {
+				snap: {
+					opacity: 1,
+					tx: 200
+				},
+				ease: Linear.easeNone
 			}))
 		.addTo(base.controller);
 
