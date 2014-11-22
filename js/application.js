@@ -29,8 +29,6 @@ $(function() {
 		s.append(element);
 	}
 
-	e.security.matrix.translate(-9999,0);
-	e.operations.matrix.translate(-9999,0);
 
 	for(var i in e) {
 		e[i].element.transform(e[i].matrix);
@@ -44,7 +42,7 @@ $(function() {
 	new ScrollScene({
 	    	triggerElement: '#content-wrapper',
     		offset: 400,
-    		duration: 4000
+    		duration: 6000
     	})
     	.setPin('#pin')
     	.addTo(base.controller);
@@ -224,6 +222,74 @@ $(function() {
 		.setTween(TweenMax.fromTo(".scrollContent", 0.5, 
 				{"left": "0"},
 				{"left": "100px",
+				ease: Linear.easeNone}
+
+			))
+		.addTo(base.controller);
+
+	new ScrollScene({
+	    	triggerElement: '#content-wrapper',
+			offset: 2850,
+			duration: 1000
+		})
+		.setTween(new TimelineMax()
+			.set(e.security.element, {
+				snap: {
+					opacity: 0,
+				    tx: 1000
+				}
+			})
+			.to(e.security.element, 1, {
+				snap: {
+					opacity: 1,
+					tx: 0
+				},
+				ease: Linear.easeNone
+			}))
+		.addTo(base.controller);
+
+	new ScrollScene({
+	    	triggerElement: '#content-wrapper',
+			offset: 3850,
+			duration: 100
+		})
+		.setTween(TweenMax.fromTo(".scrollContent", 0.5, 
+				{"left": "100px"},
+				{"left": "0px",
+				ease: Linear.easeNone}
+
+			))
+		.addTo(base.controller);
+
+	new ScrollScene({
+	    	triggerElement: '#content-wrapper',
+			offset: 3650,
+			duration: 1000
+		})
+		.setTween(new TimelineMax()
+			.set(e.operations.element, {
+				snap: {
+					opacity: 0,
+				    tx: 1000
+				}
+			})
+			.to(e.operations.element, 1, {
+				snap: {
+					opacity: 1,
+					tx: 0
+				},
+				ease: Linear.easeNone
+			}))
+		.addTo(base.controller);
+
+	new ScrollScene({
+	    	triggerElement: '#content-wrapper',
+			offset: 4650,
+			duration: 100
+		})
+		.setTween(TweenMax.fromTo(".scrollContent", 0.5, 
+				{"left": "0px"},
+				{"left": "-100px",
 				ease: Linear.easeNone}
 
 			))
