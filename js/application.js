@@ -49,24 +49,24 @@ $(function() {
 
 	new ScrollScene({
 	    	triggerElement: '#content-wrapper',
-			offset: 400,
-			duration: 1500
-		})
-		.setTween(new TimelineMax()
-			.set(e.hdfs.element, {
-				snap: {
-				    scale: 2,
-				}
+				offset: 400,
+				duration: 1500
 			})
-			.to(e.hdfs.element, 1, {
-				snap: {
-				  scale: 1,
-				}
+			.setTween(new TimelineMax()
+				.set(e.hdfs.element, {
+					snap: {
+					    scale: 2,
+					}
+				})
+				.to(e.hdfs.element, 1, {
+					snap: {
+					  scale: 1,
+					}
 			}))
 		.addTo(base.controller);
 
 	new ScrollScene({
-	    	triggerElement: '#content-wrapper',
+	    triggerElement: '#content-wrapper',
 			offset: 800,
 			duration: 1500
 		})
