@@ -4,8 +4,24 @@
       <meta charset="utf-8">
       <title>Demo</title>
         <style>
-          body { 
-            min-height: 2000px;
+          html,body {
+            height: 100%;
+          }
+          #content-wrapper {
+            padding-top: 0;
+            overflow: hidden;
+            max-width: none;
+          }
+          #example-wrapper {
+            width: 100%;
+            height: 100%;
+          }
+
+          .scrollContent {
+            height: auto;
+            position:absolute; 
+            z-index:1;
+            width: 100%;
           }
           
           .container { 
@@ -14,6 +30,12 @@
           
           h2,h3 { 
             color: #eee; 
+          }
+          #svg {
+            width: 100%;
+            box-sizing: border-box;
+            padding: 28.125%;
+            height: 0;
           }
           
           .column { 
@@ -26,106 +48,26 @@
         </style>
     </head>
     <body>
-      <div class="container">
-        <svg xstyle="display: none;">
-           <defs>
-            <g id="block-1">
-              <path stroke="#000" stroke-miterlimit="10" d="M164.5 285.9h222.7v54h-222.7v-54z" fill="none"/>
-            </g>
 
-            <text transform="translate(177.997 299.986)" font-family="'MyriadPro-Regular'" font-size="5.061">Data Acccess</text>
-            <text transform="translate(177.997 414.138)" font-family="'MyriadPro-Regular'" font-size="5.061">Data Management</text>
-            <text transform="translate(119.911 414.138)" font-family="'MyriadPro-Regular'" font-size="5.061">Governance</text>
+      <div id="content-wrapper">
+        <div id="example-wrapper" class="scrollContainer">
+          <div class="scrollContent" style="position: relative;">
+           
+            <!-- Begin SVG -->
+            <div id="pin">
+        <div id="pin"><svg id="svg">
+            
+            </svg></div>
 
-            <g id="block-2">
-              <path stroke="#000" stroke-miterlimit="10" d="M164.5 343.3h222.7v77.6h-222.7v-77.6z" fill="none"/>
-            </g>
-
-            <g id="circles-1">
-              <circle cx="191.4" cy="343.3" r="13.5"/>
-              <circle cx="225.4" cy="343.3" r="13.5"/>
-              <circle cx="259.5" cy="343.3" r="13.5"/>
-              <circle cx="293.5" cy="343.3" r="13.5"/>
-              <circle cx="327.4" cy="343.3" r="13.5"/>
-              <circle cx="361.4" cy="343.3" r="13.5"/>
-            </g>
-
-            <g id="block-3">
-              <path stroke="#000" stroke-miterlimit="10" d="M113.2 285.9h45.6v135h-45.6v-135z" fill="none"/>
-            </g>
-
-            <text transform="translate(399.879 414.138)" font-family="'MyriadPro-Regular'" font-size="5.061">Security</text>
-
-            <g id="block-4">
-              <path stroke="#000" stroke-miterlimit="10" d="M393.1 285.9h45.6v135h-45.6v-135z" fill="none"/>
-            </g>
-
-            <text transform="translate(449.961 414.138)" font-family="'MyriadPro-Regular'" font-size="5.061">Operations</text>
-
-            <g id="block-5">
-              <path stroke="#000" stroke-miterlimit="10" d="M443.2 285.9h45.6v135h-45.6v-135z" fill="none"/>
-            </g>
-           </defs>
-        </svg>
-
-        <!-- <svg style="display: none;">
-            <defs>
-               <g id="block-1">
-                <path class="st0" stroke="#000" stroke-miterlimit="10" fill="none" d="M65.4 33.1h528v128h-528z"/>
-               </g>
-
-               <text id="h-applications" transform="translate(97.441 145.081)" font-family="'MyriadPro-Regular'" font-size="12">Applications</text>
-               <text id="h-datasystems" transform="translate(97.441 289.081)" font-family="'MyriadPro-Regular'" font-size="12">Data Systems</text>
-               <text id="h-sources" transform="translate(97.441 433.081)" font-family="'MyriadPro-Regular'" font-size="12">Sources</text>
-               <text id="h-tools" transform="translate(625.441 401.081)" font-family="'MyriadPro-Regular'" font-size="12">Tools</text>
-
-              <g id="block-2">
-                <path stroke="#000" stroke-miterlimit="10" fill="none" d="M65.4 321.1h528v128h-528zM65.4 177.1h528v128h-528zM321.4 177.1h272v128h-272z"/>
-              </g>
-
-              <g id="circles-1">
-               <circle cx="256" cy="176" r="32"/>
-               <circle cx="336.6" cy="176" r="32"/>
-               <circle cx="417.2" cy="176" r="32"/>
-               <circle cx="497.8" cy="176" r="32"/>
-               <circle cx="578.4" cy="176" r="32"/>
-               <circle cx="659" cy="176" r="32"/>
-               <circle cx="256" cy="472" r="32"/>
-               <circle cx="336.6" cy="472" r="32"/>
-               <circle cx="417.2" cy="472" r="32"/>
-               <circle cx="497.8" cy="472" r="32"/>
-               <circle cx="578.4" cy="472" r="32"/>
-               <circle cx="659" cy="472" r="32"/>
-              </g>
-
-              <g id="block-3">
-               <path stroke="#000" stroke-miterlimit="10" fill="none" d="M609.4 97.1h108v320h-108z"/>
-              </g>
-
-              <text id="h-horton" transform="translate(353.441 273.081)" font-family="'MyriadPro-Regular'" font-size="12">Hortonworks</text>
-            </defs>
-          </svg> -->
-
-        <h2>Title</h2>
-        <div class="row">
-          <div class="column col-xs-12 col-md-12">
-            <h3>GP SVG 1</h3>
-            <svg id="info" viewBox="0 0 612 792" preserveAspectRatio="xMinYMax meet">
-              <use xlink:href="#block-1"></use>
-              <use xlink:href="#h-applications"></use>
-              <use xlink:href="#h-datasystems"></use>
-              <use xlink:href="#h-sources"></use>
-              <use xlink:href="#h-tools"></use>
-              <use xlink:href="#block-2"></use>
-              <use xlink:href="#h-horton"></use>
-              <use xlink:href="#block-3"></use>
-            </svg>
           </div>
         </div> 
+      </div>
       </div><!-- Container -->
       <script src="js/jquery-1.9.0.min.js"></script>
-      <script src="js/jquery.scrollmagic.js"></script>
+      <script src="js/TweenMax.min.js"></script>
+      <script src="js/SnapPlugin.js"></script>
       <script src="js/snap.svg.js"></script>
-      <script src="js/app.js"></script>
+      <script src="js/jquery.scrollmagic.min.js"></script>
+      <script src="js/application.js"></script>
     </body>
 </html>

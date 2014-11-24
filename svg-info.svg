@@ -1,1 +1,34 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 612 792" enable-background="new 0 0 612 792"><path stroke="#000" stroke-miterlimit="10" d="M164.5 285.9h222.7v54h-222.7v-54z" fill="none"/><text transform="translate(177.997 299.986)" font-family="'MyriadPro-Regular'" font-size="5.061">Data Acccess</text><text transform="translate(177.997 414.138)" font-family="'MyriadPro-Regular'" font-size="5.061">Data Management</text><text transform="translate(119.911 414.138)" font-family="'MyriadPro-Regular'" font-size="5.061">Governance</text><path stroke="#000" stroke-miterlimit="10" d="M164.5 343.3h222.7v77.6h-222.7v-77.6z" fill="none"/><circle cx="191.4" cy="343.3" r="13.5"/><circle cx="225.4" cy="343.3" r="13.5"/><circle cx="259.5" cy="343.3" r="13.5"/><circle cx="293.5" cy="343.3" r="13.5"/><circle cx="327.4" cy="343.3" r="13.5"/><circle cx="361.4" cy="343.3" r="13.5"/><path stroke="#000" stroke-miterlimit="10" d="M113.2 285.9h45.6v135h-45.6v-135z" fill="none"/><text transform="translate(399.879 414.138)" font-family="'MyriadPro-Regular'" font-size="5.061">Security</text><path stroke="#000" stroke-miterlimit="10" d="M393.1 285.9h45.6v135h-45.6v-135z" fill="none"/><text transform="translate(449.961 414.138)" font-family="'MyriadPro-Regular'" font-size="5.061">Operations</text><path stroke="#000" stroke-miterlimit="10" d="M443.2 285.9h45.6v135h-45.6v-135z" fill="none"/></svg>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="791px" height="791px" viewBox="-195.5 -253.5 791 791" enable-background="new -195.5 -253.5 791 791"
+	 xml:space="preserve">
+<g id="data_access">
+	<path fill="none" stroke="#000000" stroke-miterlimit="10" d="M27.378-2.623h435.766v111.084H27.378V-2.623z"/>
+	<text transform="matrix(1 0 0 1 52.2539 24.2637)" font-family="'MyriadPro-Regular'" font-size="10.414">Data Access</text>
+</g>
+<g id="hdfs">
+	<text transform="matrix(1 0 0 1 52.2539 217.5752)" font-family="'MyriadPro-Regular'" font-size="10.414">HDFS (Data Management)</text>
+	<path fill="none" stroke="#000000" stroke-miterlimit="10" d="M27.378,120.395h435.766v111.082H27.378V120.395z"/>
+</g>
+<circle id="element_1" cx="83.636" cy="103.719" r="26.066"/>
+<circle id="element_2" cx="149.29" cy="103.719" r="26.066"/>
+<circle id="element_3" cx="214.945" cy="103.719" r="26.066"/>
+<circle id="element_4" cx="280.599" cy="103.719" r="26.066"/>
+<circle id="element_5" cx="346.253" cy="103.719" r="26.066"/>
+<circle id="element_6" cx="411.907" cy="103.719" r="26.066"/>
+<g id="security">
+	<text transform="matrix(1 0 0 1 490.9502 21.877)" font-family="'MyriadPro-Regular'" font-size="10.414">Security</text>
+	<path fill="none" stroke="#000000" stroke-miterlimit="10" d="M477.025-1.755h93.731v233.231h-93.731V-1.755z"/>
+</g>
+<g id="governance_integration">
+	<text transform="matrix(1 0 0 1 -64.5771 21.877)" font-family="'MyriadPro-Regular'" font-size="10.414">Governance</text>
+	<text transform="matrix(1 0 0 1 -64.5771 34.374)" font-family="'MyriadPro-Regular'" font-size="10.414">Integration</text>
+	<path fill="none" stroke="#000000" stroke-miterlimit="10" d="M-78.5-1.755h93.729v233.231H-78.5V-1.755z"/>
+</g>
+<g id="operations">
+	<text transform="matrix(1 0 0 1 596.6943 21.877)" font-family="'MyriadPro-Regular'" font-size="10.414">Operations</text>
+	<path fill="none" stroke="#000000" stroke-miterlimit="10" d="M582.771-1.755H676.5v233.231h-93.729V-1.755z"/>
+</g>
+</svg>
