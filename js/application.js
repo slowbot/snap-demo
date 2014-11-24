@@ -37,8 +37,6 @@ $(function() {
 	var base = [];
 	base.controller = new ScrollMagic();
 
-
-
 	new ScrollScene({
 	    	triggerElement: '#content-wrapper',
     		offset: 400,
@@ -55,13 +53,13 @@ $(function() {
 			.setTween(new TimelineMax()
 				.set(e.hdfs.element, {
 					snap: {
-					    scale: 2,
+					  scale: 2,
 					}
 				})
 				.to(e.hdfs.element, 1, {
 					snap: {
 					  scale: 1,
-					}
+				}
 			}))
 		.addTo(base.controller);
 
@@ -262,7 +260,7 @@ $(function() {
 		.addTo(base.controller);
 
 	new ScrollScene({
-	    	triggerElement: '#content-wrapper',
+	    triggerElement: '#content-wrapper',
 			offset: 3650,
 			duration: 1000
 		})
@@ -283,7 +281,7 @@ $(function() {
 		.addTo(base.controller);
 
 	new ScrollScene({
-	    	triggerElement: '#content-wrapper',
+	    triggerElement: '#content-wrapper',
 			offset: 4650,
 			duration: 100
 		})
@@ -294,15 +292,5 @@ $(function() {
 
 			))
 		.addTo(base.controller);
-
-
-
-	
-
-
-
-
-
-
   });
 });
