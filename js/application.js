@@ -2,7 +2,7 @@ var e = {};
 
 $(function() {
   var s = Snap("#svg");
-  Snap.load("svg-info.svg", function(f) {
+  Snap.load("svg-canvas.svg", function(f) {
     var element_names = [
 		'data_access',
 		'hdfs',
@@ -114,6 +114,7 @@ $(function() {
 				  opacity: 1
 				}
 			}))
+
 		.addTo(base.controller);
 
 	new ScrollScene({
@@ -207,7 +208,7 @@ $(function() {
 		.addTo(base.controller);
 
 	new ScrollScene({
-	    	triggerElement: '#content-wrapper',
+	    triggerElement: '#content-wrapper',
 			offset: 2150,
 			duration: 1000
 		})
@@ -225,6 +226,17 @@ $(function() {
 				},
 				ease: Linear.easeNone
 			}))
+
+		.addTo(base.controller);
+
+		new ScrollScene({
+	    triggerElement: '#content-wrapper',
+			offset: 2250,
+			duration: 1500
+		})
+
+		.setClassToggle("#caption-3", "active") // add class toggle
+
 		.addTo(base.controller);
 
 	new ScrollScene({
@@ -261,6 +273,17 @@ $(function() {
 			}))
 		.addTo(base.controller);
 
+
+	new ScrollScene({
+	    triggerElement: '#content-wrapper',
+			offset: 3850,
+			duration: 800
+		})
+
+		.setClassToggle("#caption-4", "active") // add class toggle
+
+		.addTo(base.controller);
+
 	new ScrollScene({
 	    	triggerElement: '#content-wrapper',
 			offset: 3850,
@@ -293,6 +316,16 @@ $(function() {
 				},
 				ease: Linear.easeNone
 			}))
+		.addTo(base.controller);
+
+	new ScrollScene({
+	    triggerElement: '#content-wrapper',
+			offset: 4650,
+			duration: 1500
+		})
+
+		.setClassToggle("#caption-5", "active") // add class toggle
+
 		.addTo(base.controller);
 
 	new ScrollScene({

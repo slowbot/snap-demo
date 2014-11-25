@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 18.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 -124.2 612 612" enable-background="new 0 -124.2 612 612" xml:space="preserve">
+<g id="data_access">
+	<path fill="#69BE28" d="M11.8-45h437.7V66.5H11.8V-45z"/>
+	<text transform="matrix(1 0 0 1 36.8105 -18.0718)" fill="#FFFFFF" font-family="'OpenSans'" font-size="14.0598">Data Access</text>
+</g>
+<g id="hdfs">
+	<path fill="#B3E28A" d="M11.8,78.5h437.7v111.6H11.8V78.5z"/>
+	<text transform="matrix(1 0 0 1 36.8105 176.063)" fill="#69BE28" font-family="'MyriadPro-Regular'" font-size="14.0598">HDFS (Data Management)</text>
+</g>
+<g id="security">
+	<text transform="matrix(1 0 0 1 477.3818 -20.4692)" fill="#69BE28" font-family="'MyriadPro-Regular'" font-size="10.4585">Security</text>
+	<path fill="none" stroke="#69BE28" stroke-miterlimit="10" d="M463.4-44.2h94.1v234.3h-94.1V-44.2L463.4-44.2z"/>
+</g>
+<g id="governance_integration">
+	<text transform="matrix(1 0 0 1 -80.5195 -20.4692)" fill="#69BE28" font-family="'MyriadPro-Regular'" font-size="10.4585">Governance</text>
+	<text transform="matrix(1 0 0 1 -80.5195 -7.9194)" fill="#69BE28" font-family="'MyriadPro-Regular'" font-size="10.4585">Integration</text>
+	<path fill="none" stroke="#69BE28" stroke-miterlimit="10" d="M-94.5-44.2h94.1v234.3h-94.1V-44.2z"/>
+</g>
+<g id="operations">
+	<text transform="matrix(1 0 0 1 583.5781 -20.4692)" fill="#69BE28" font-family="'MyriadPro-Regular'" font-size="10.4585">Operations</text>
+	<path fill="none" stroke="#69BE28" stroke-miterlimit="10" d="M569.6-44.2h94.1v234.3h-94.1V-44.2z"/>
+</g>
+<g id="element_1">
+	<circle fill="#FFFFFF" stroke="#69BE28" stroke-miterlimit="10" cx="68.3" cy="61.7" r="26.2"/>
+	<text transform="matrix(1 0 0 1 53.2148 67.4878)" fill="#69BE28" font-family="'OpenSans-Semibold'" font-size="11.047">Batch</text>
+</g>
+<g id="element_2">
+	<circle fill="#FFFFFF" stroke="#69BE28" stroke-miterlimit="10" cx="134.2" cy="61.7" r="26.2"/>
+	<text transform="matrix(1 0 0 1 119.1631 66.4849)" fill="#69BE28" font-family="'OpenSans-Semibold'" font-size="11.047">Script</text>
+</g>
+<g id="element_3">
+	<circle fill="#FFFFFF" stroke="#69BE28" stroke-miterlimit="10" cx="200.2" cy="61.7" r="26.2"/>
+	<text transform="matrix(1 0 0 1 189.7979 66.9849)" fill="#69BE28" font-family="'OpenSans-Semibold'" font-size="11.047">SQL</text>
+</g>
+<g id="element_4">
+	<circle fill="#FFFFFF" stroke="#69BE28" stroke-miterlimit="10" cx="266.2" cy="61.7" r="26.2"/>
+	<text transform="matrix(1 0 0 1 248.7109 65.9839)" fill="#69BE28" font-family="'OpenSans-Semibold'" font-size="11.047">NoSQL</text>
+</g>
+<g id="element_5">
+	<circle fill="#FFFFFF" stroke="#69BE28" stroke-miterlimit="10" cx="332.1" cy="61.7" r="26.2"/>
+	<text transform="matrix(1 0 0 1 312.2285 66.4849)" fill="#69BE28" font-family="'OpenSans-Semibold'" font-size="11.047">Stream</text>
+</g>
+<g id="element_6">
+	<circle fill="#FFFFFF" stroke="#69BE28" stroke-miterlimit="10" cx="398" cy="61.7" r="26.2"/>
+	<text transform="matrix(1 0 0 1 382.5273 65.479)" fill="#69BE28" font-family="'OpenSans-Semibold'" font-size="11.047">Other</text>
+</g>
+</svg>
