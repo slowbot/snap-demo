@@ -38,7 +38,7 @@ $(function() {
 
 	new ScrollScene({
 		triggerElement: '#content-wrapper',
-			duration: 800
+			duration: 700
 		})
 
 		.setClassToggle("#caption-1", "active") // add class toggle

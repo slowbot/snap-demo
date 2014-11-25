@@ -16,7 +16,8 @@
             max-width: none;
           }
           #example-wrapper {
-            width: 100%;
+            margin: 0 auto;
+            max-width: 960px;
             height: 100%;
           }
 
@@ -27,12 +28,25 @@
           }
 
           .caption {
-            display: none;
+            height: 0;
+            overflow: hidden;
           }
 
           .active {
-            display: block;
+            height: auto;
           }
+
+          .inner {
+            opacity: 0;
+            -webkit-transition: all .5s ease-in-out;
+            -moz-transition: all .5s ease-in-out;
+            -o-transition: all .5s ease-in-out;
+            transition: all .5s ease-in-out;
+          }
+
+          .active .inner { 
+           opacity: 1;
+          } 
 
           .scrollContent {
             height: auto;
@@ -51,7 +65,7 @@
           #svg {
             width: 100%;
             box-sizing: border-box;
-            padding: 28.125%;
+            padding: 25%;
             height: 0;
           }
           
@@ -77,13 +91,17 @@
 
               <section id="caption">
                 <div id="caption-1" class="caption active">
+                  <div class="inner">
                   <h2>HDFS & YARN : The core of Hadoop</h2>
                   <p>The core components of HDP are YARN and Hadoop Distributed Filesystem (HDFS). YARN is the architectural center of Hadoop that enables you to process data simultaneously in multiple ways. YARN provides the resource management and pluggable architecture for enabling a wide variety of data access methods. HDFS provides the scalable, fault-tolerant, cost-efficient storage for big data.</p>
+                  </div>
                 </div>
 
                 <div id="caption-2" class="caption">
-                  <h2>Sup</h2>
-                  <p>The core components of HDP are YARN and Hadoop Distributed Filesystem (HDFS). YARN is the architectural center of Hadoop that enables you to process data simultaneously in multiple ways. YARN provides the resource management and pluggable architecture for enabling a wide variety of data access methods. HDFS provides the scalable, fault-tolerant, cost-efficient storage for big data.</p>
+                  <div class="inner">
+                  <h2>Access data from a variety of engines</h2>
+                  <p>YARN provides the foundation for a versatile range of processing engines that empower you to interact with the same data in multiple ways, at the same time. This means applications can interact with the data in the best way: from batch to interactive SQL or low latency access with NoSQL. Emerging use cases for data science, search and streaming are also supported with Apache Spark, Solr and Storm. Additionally, ecosystem partners provide even more specialized data access engines for YARN.</p>
+                  </div>
                 </div>
               </section>
             </div>
