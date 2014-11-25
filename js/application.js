@@ -234,7 +234,7 @@ $(function() {
 		new ScrollScene({
 	    triggerElement: '#content-wrapper',
 			offset: 2250,
-			duration: 1500
+			duration: 1300
 		})
 
 		.setClassToggle("#caption-3", "active") // add class toggle
@@ -322,7 +322,7 @@ $(function() {
 
 	new ScrollScene({
 	    triggerElement: '#content-wrapper',
-			offset: 4650,
+			offset: 4850,
 			duration: 1500
 		})
 
