@@ -4,10 +4,13 @@
       <meta charset="utf-8">
       <title>Demo</title>
         <style>
+          @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,600,300,700);
+
           html,body {
+            font-family: 'Open Sans', sans-serif;
             height: 100%;
           }
-          #content-wrapper {
+          #content-wrapper, #caption {
             padding-top: 0;
             overflow: hidden;
             max-width: none;
@@ -15,6 +18,20 @@
           #example-wrapper {
             width: 100%;
             height: 100%;
+          }
+
+          #caption {
+            margin: 0 auto;
+            max-width: 860px;
+            position: relative;
+          }
+
+          .caption {
+            display: none;
+          }
+
+          .active {
+            display: block;
           }
 
           .scrollContent {
@@ -58,10 +75,17 @@
               <svg id="svg">
               </svg>
 
-<!--               <div id="caption-1" class="caption">
-                <h2>HDFS & YARN : The core of Hadoop</h2>
-                <p>The core components of HDP are YARN and Hadoop Distributed Filesystem (HDFS). YARN is the architectural center of Hadoop that enables you to process data simultaneously in multiple ways. YARN provides the resource management and pluggable architecture for enabling a wide variety of data access methods. HDFS provides the scalable, fault-tolerant, cost-efficient storage for big data.</p>
-              </div> -->
+              <section id="caption">
+                <div id="caption-1" class="caption active">
+                  <h2>HDFS & YARN : The core of Hadoop</h2>
+                  <p>The core components of HDP are YARN and Hadoop Distributed Filesystem (HDFS). YARN is the architectural center of Hadoop that enables you to process data simultaneously in multiple ways. YARN provides the resource management and pluggable architecture for enabling a wide variety of data access methods. HDFS provides the scalable, fault-tolerant, cost-efficient storage for big data.</p>
+                </div>
+
+                <div id="caption-2" class="caption">
+                  <h2>Sup</h2>
+                  <p>The core components of HDP are YARN and Hadoop Distributed Filesystem (HDFS). YARN is the architectural center of Hadoop that enables you to process data simultaneously in multiple ways. YARN provides the resource management and pluggable architecture for enabling a wide variety of data access methods. HDFS provides the scalable, fault-tolerant, cost-efficient storage for big data.</p>
+                </div>
+              </section>
             </div>
         </div> 
       </div>

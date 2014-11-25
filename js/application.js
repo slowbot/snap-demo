@@ -29,7 +29,6 @@ $(function() {
 		s.append(element);
 	}
 
-
 	for(var i in e) {
 		e[i].element.transform(e[i].matrix);
 	}
@@ -37,14 +36,23 @@ $(function() {
 	var base = [];
 	base.controller = new ScrollMagic();
 
+	new ScrollScene({
+		triggerElement: '#content-wrapper',
+			duration: 800
+		})
 
+		.setClassToggle("#caption-1", "active") // add class toggle
+
+	.addTo(base.controller);	
 
 	new ScrollScene({
 	    	triggerElement: '#content-wrapper',
     		offset: 400,
     		duration: 6000
     	})
+
     	.setPin('#pin')
+
     	.addTo(base.controller);
 
 	new ScrollScene({
@@ -52,6 +60,7 @@ $(function() {
 				offset: 400,
 				duration: 1500
 			})
+			
 			.setTween(new TimelineMax()
 				.set(e.hdfs.element, {
 					snap: {
@@ -63,6 +72,7 @@ $(function() {
 					  scale: 1,
 					}
 			}))
+
 		.addTo(base.controller);
 
 	new ScrollScene({
@@ -83,6 +93,9 @@ $(function() {
 					tx: 0
 				}
 			}))
+
+		.setClassToggle("#caption-2", "active") // add class toggle
+
 		.addTo(base.controller);
 
 	new ScrollScene({
@@ -140,7 +153,7 @@ $(function() {
 		.addTo(base.controller);
 
 	new ScrollScene({
-	    	triggerElement: '#content-wrapper',
+	    triggerElement: '#content-wrapper',
 			offset: 2050,
 			duration: 200
 		})
@@ -283,7 +296,7 @@ $(function() {
 		.addTo(base.controller);
 
 	new ScrollScene({
-	    	triggerElement: '#content-wrapper',
+	   triggerElement: '#content-wrapper',
 			offset: 4650,
 			duration: 100
 		})
@@ -294,15 +307,6 @@ $(function() {
 
 			))
 		.addTo(base.controller);
-
-
-
-	
-
-
-
-
-
 
   });
 });
