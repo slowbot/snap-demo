@@ -28,11 +28,13 @@ $(function() {
 		}; 
 		//console.log(element.getBBox());
 		s.append(element);
+
 	}
+
 	//s.append(f.select('#Layer_1'));
 
 	
-	/*
+	
 	var base = [];
 	base.controller = new ScrollMagic();
 
@@ -340,7 +342,7 @@ $(function() {
 
 			))
 		.addTo(base.controller); 
-		*/
+		
 
   });
 });
