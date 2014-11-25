@@ -16,6 +16,7 @@ $(function() {
 		'element_5',
 		'element_6'
     ];
+
     
 	for(var i in element_names) {
 		var element = f.select('#'+element_names[i]),
@@ -24,15 +25,14 @@ $(function() {
 		e[element_names[i]] = {
 			element: element,
 			matrix: matrix
-		};
-
+		}; 
+		//console.log(element.getBBox());
 		s.append(element);
 	}
+	//s.append(f.select('#Layer_1'));
 
-	for(var i in e) {
-		e[i].element.transform(e[i].matrix);
-	}
-
+	
+	/*
 	var base = [];
 	base.controller = new ScrollMagic();
 
@@ -339,7 +339,8 @@ $(function() {
 				ease: Linear.easeNone}
 
 			))
-		.addTo(base.controller);
+		.addTo(base.controller); 
+		*/
 
   });
 });
