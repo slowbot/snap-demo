@@ -45,6 +45,15 @@ $(function() {
 
 		.setClassToggle("#caption-1", "active") // add class toggle
 
+	.addTo(base.controller);
+
+	new ScrollScene({
+		triggerElement: '#content-wrapper',
+			duration: 700
+		})
+
+		.setClassToggle("#dot-1", "active") // add class toggle
+
 	.addTo(base.controller);	
 
 	new ScrollScene({
@@ -99,6 +108,16 @@ $(function() {
 		.setClassToggle("#caption-2", "active") // add class toggle
 
 		.addTo(base.controller);
+
+	new ScrollScene({
+	    triggerElement: '#content-wrapper',
+			offset: 800,
+			duration: 1500
+		})	
+	
+	.setClassToggle("#dot-2", "active") // add class toggle
+
+	.addTo(base.controller);
 
 	new ScrollScene({
 	    	triggerElement: '#content-wrapper',
@@ -242,6 +261,16 @@ $(function() {
 		.addTo(base.controller);
 
 	new ScrollScene({
+	    triggerElement: '#content-wrapper',
+			offset: 2250,
+			duration: 1300
+		})
+
+		.setClassToggle("#dot-3", "active") // add class toggle
+
+		.addTo(base.controller);	
+
+	new ScrollScene({
 	    	triggerElement: '#content-wrapper',
 			offset: 3150,
 			duration: 100
@@ -287,6 +316,16 @@ $(function() {
 		.addTo(base.controller);
 
 	new ScrollScene({
+	    triggerElement: '#content-wrapper',
+			offset: 3850,
+			duration: 800
+		})
+
+		.setClassToggle("#dot-4", "active") // add class toggle
+
+		.addTo(base.controller);		
+
+	new ScrollScene({
 	    	triggerElement: '#content-wrapper',
 			offset: 3850,
 			duration: 100
@@ -329,6 +368,16 @@ $(function() {
 		.setClassToggle("#caption-5", "active") // add class toggle
 
 		.addTo(base.controller);
+
+	new ScrollScene({
+	    triggerElement: '#content-wrapper',
+			offset: 4850,
+			duration: 1500
+		})
+
+		.setClassToggle("#dot-5", "active") // add class toggle
+
+		.addTo(base.controller);	
 
 	new ScrollScene({
 	   triggerElement: '#content-wrapper',
