@@ -2,6 +2,8 @@
 
 html,body {
   background-color: #f3f3f3;
+  background-image: url(../images/bg.jpg);
+  background-repeat: repeat-x;
   font-family: 'Helvetica Neue', Arial, Helvetica, 'Lucida Grande', sans-serif;
   font-size: 100%;
   font-weight: 300;
@@ -71,6 +73,7 @@ h2, h3 {
   font-family: 'Cabin', 'Helvetica Neue', Arial, Helvetica, 'Lucida Grande', sans-serif;
   font-weight: 300;
   font-size: 32px;
+  line-height: 1.2em;
 }
 
 h2,h3, p { 
@@ -93,7 +96,7 @@ h2,h3, p {
 .column { 
   height: 600px;
   background: #ddd;
-  margin: 200px 0 100px 0;
+  margin: 0 0 100px 0;
   padding: 40px;
  }
 
