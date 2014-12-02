@@ -2,7 +2,7 @@ var e = {};
 
 $(function() {
   var s = Snap("#svg");
-  Snap.load("svg-canvas.svg", function(f) {
+  Snap.load("svg-canvas2.svg", function(f) {
     var element_names = [
 		'data_access',
 		'hdfs',
@@ -50,18 +50,20 @@ $(function() {
   	new ScrollScene({
 	    	triggerElement: '#content-wrapper',
 				offset: 1400,
-				duration: 1500
+				duration: 900
 			})
 			
 			.setTween(new TimelineMax()
 				.set(e.hdfs.element, {
 					snap: {
-					    scale: 2,
+					  scale: 2,
+					  opacity: 1
 					}
 				})
 				.to(e.hdfs.element, 1, {
 					snap: {
 					  scale: 1,
+					  opacity: .5
 					}
 			}))
 
@@ -89,8 +91,8 @@ $(function() {
 		// Scene 2
 		new ScrollScene({
 	   	 triggerElement: '#content-wrapper',
-				offset: 1800,
-				duration: 1500
+				offset: 1600,
+				duration: 1600
 			})
 
 		.setTween(new TimelineMax()
@@ -112,7 +114,7 @@ $(function() {
 		new ScrollScene({
 			triggerElement: '#content-wrapper',
 				offset: 2000,
-				duration: 1400
+				duration: 1700
 			})
 
 			.setClassToggle("#caption-2", "active") // add class toggle
@@ -122,7 +124,7 @@ $(function() {
 		new ScrollScene({
 		    triggerElement: '#content-wrapper',
 				offset: 2000,
-				duration: 1500
+				duration: 1800
 			})	
 		
 			.setClassToggle("#dot-2", "active") // add class toggle
@@ -131,18 +133,20 @@ $(function() {
 
 		new ScrollScene({
 		    	triggerElement: '#content-wrapper',
-				offset: 2400,
+				offset: 2900,
 				duration: 200
 			})
 			.setTween(new TimelineMax()
 				.set(e.element_1.element, {
 					snap: {
-					    opacity: 0
+					    opacity: 0,
+					    ty: -50
 					}
 				})
 				.to(e.element_1.element, 1, {
 					snap: {
-					  opacity: 1
+					  opacity: 1,
+					  ty: 0
 					}
 				}))
 
@@ -150,18 +154,20 @@ $(function() {
 
 		new ScrollScene({
 		    	triggerElement: '#content-wrapper',
-				offset: 2450,
+				offset: 2950,
 				duration: 200
 			})
 			.setTween(new TimelineMax()
 				.set(e.element_2.element, {
 					snap: {
-					    opacity: 0
+					    opacity: 0,
+					    ty: -50
 					}
 				})
 				.to(e.element_2.element, 1, {
 					snap: {
-					  opacity: 1
+					  opacity: 1,
+					  ty: 0
 					}
 				}))
 
@@ -169,19 +175,21 @@ $(function() {
 
 		new ScrollScene({
 		    triggerElement: '#content-wrapper',
-				offset: 2500,
+				offset: 3000,
 				duration: 200
 			})
 
 			.setTween(new TimelineMax()
 				.set(e.element_3.element, {
 					snap: {
-					    opacity: 0
+					   opacity: 0,
+					   ty: -50
 					}
 				})
 				.to(e.element_3.element, 1, {
 					snap: {
-					  opacity: 1
+					  opacity: 1,
+					  ty: 0
 					}
 				}))
 
@@ -189,19 +197,21 @@ $(function() {
 
 		new ScrollScene({
 		    triggerElement: '#content-wrapper',
-				offset: 2550,
+				offset: 3150,
 				duration: 200
 			})
 
 			.setTween(new TimelineMax()
 				.set(e.element_4.element, {
 					snap: {
-					    opacity: 0
+					   opacity: 0,
+					   ty: -50
 					}
 				})
 				.to(e.element_4.element, 1, {
 					snap: {
-					  opacity: 1
+					  opacity: 1,
+					  ty: 0
 					}
 				}))
 
@@ -209,19 +219,21 @@ $(function() {
 
 		new ScrollScene({
 		    	triggerElement: '#content-wrapper',
-				offset: 2600,
+				offset: 3200,
 				duration: 200
 			})
 
 			.setTween(new TimelineMax()
 				.set(e.element_5.element, {
 					snap: {
-					    opacity: 0
+					   opacity: 0,
+					   ty: -50
 					}
 				})
 				.to(e.element_5.element, 1, {
 					snap: {
-					  opacity: 1
+					  opacity: 1,
+					  ty: 0
 					}
 				}))
 
@@ -229,18 +241,20 @@ $(function() {
 
 		new ScrollScene({
 		    	triggerElement: '#content-wrapper',
-				offset: 2650,
+				offset: 3250,
 				duration: 200
 			})
 			.setTween(new TimelineMax()
 				.set(e.element_6.element, {
 					snap: {
-					    opacity: 0
+					   opacity: 0,
+					   ty: -50
 					}
 				})
 				.to(e.element_6.element, 1, {
 					snap: {
 					  opacity: 1,
+					  ty: 0
 					}
 				}))
 
@@ -249,7 +263,7 @@ $(function() {
 		// Scene 3
 		new ScrollScene({
 		    triggerElement: '#content-wrapper',
-				offset: 2650,
+				offset: 2950,
 				duration: 1000
 			})
 			.setTween(new TimelineMax()
@@ -270,8 +284,28 @@ $(function() {
 			.addTo(base.controller);
 
 		new ScrollScene({
+	   	 triggerElement: '#content-wrapper',
+				offset: 3550,
+				duration: 200
+			})
+
+		.setTween(new TimelineMax()
+			.set(e.data_access.element, {
+				snap: {
+					opacity: 1
+				}
+			})
+			.to(e.data_access.element, 1, {
+				snap: {
+					opacity: .25
+				}
+			}))
+
+			.addTo(base.controller);
+
+		new ScrollScene({
 				triggerElement: '#content-wrapper',
-				offset: 3400,
+				offset: 3700,
 				duration: 900
 			})
 
@@ -281,7 +315,7 @@ $(function() {
 
 		new ScrollScene({
 				triggerElement: '#content-wrapper',
-				offset: 3500,
+				offset: 3800,
 				duration: 1000
 			})
 
@@ -292,7 +326,7 @@ $(function() {
 
 		new ScrollScene({
 		    triggerElement: '#content-wrapper',
-				offset: 3650,
+				offset: 3550,
 				duration: 100
 			})
 
@@ -308,8 +342,8 @@ $(function() {
 		// Scene 4
 		new ScrollScene({
 		    	triggerElement: '#content-wrapper',
-				offset: 3350,
-				duration: 1000
+				offset: 3650,
+				duration: 1500
 			})
 
 			.setTween(new TimelineMax()
@@ -329,10 +363,29 @@ $(function() {
 
 			.addTo(base.controller);
 
-
 		new ScrollScene({
 		    triggerElement: '#content-wrapper',
-				offset: 4500,
+				offset: 4850,
+				duration: 200
+			})
+			.setTween(new TimelineMax()
+				.set(e.governance_integration.element, {
+					snap: {
+						opacity: 1
+					}
+				})
+				.to(e.governance_integration.element, 1, {
+					snap: {
+						opacity: .25
+					},
+					ease: Linear.easeNone
+				}))
+
+			.addTo(base.controller);
+				
+		new ScrollScene({
+		    triggerElement: '#content-wrapper',
+				offset: 4800,
 				duration: 800
 			})
 
@@ -342,7 +395,7 @@ $(function() {
 
 		new ScrollScene({
 		    triggerElement: '#content-wrapper',
-				offset: 4500,
+				offset: 4800,
 				duration: 1000
 			})
 
@@ -353,8 +406,8 @@ $(function() {
 		// Scene 5
 		new ScrollScene({
 		    	triggerElement: '#content-wrapper',
-				offset: 4350,
-				duration: 100
+				offset: 4550,
+				duration: 500
 			})
 
 			.setTween(TweenMax.fromTo(".scrollContent", 0.5, 
@@ -367,7 +420,7 @@ $(function() {
 
 		new ScrollScene({
 		    	triggerElement: '#content-wrapper',
-				offset: 4150,
+				offset: 5450,
 				duration: 1000
 			})
 			.setTween(new TimelineMax()
@@ -388,9 +441,30 @@ $(function() {
 			.addTo(base.controller);
 
 		new ScrollScene({
+		    	triggerElement: '#content-wrapper',
+				offset: 5850,
+				duration: 500
+			})
+
+			.setTween(new TimelineMax()
+				.set(e.security.element, {
+					snap: {
+						opacity: 1
+					}
+				})
+				.to(e.security.element, 1, {
+					snap: {
+						opacity: .25
+					},
+					ease: Linear.easeNone
+				}))
+
+			.addTo(base.controller);	
+
+		new ScrollScene({
 		    triggerElement: '#content-wrapper',
-				offset: 5350,
-				duration: 1500
+				offset: 5650,
+				duration: 2500
 			})
 
 			.setClassToggle("#caption-5", "active") // add class toggle
@@ -399,18 +473,18 @@ $(function() {
 
 		new ScrollScene({
 		    triggerElement: '#content-wrapper',
-				offset: 5500,
-				duration: 500
+				offset: 5800,
+				duration: 1000
 			})
 
 			.setClassToggle("#dot-5", "active") // add class toggle
 
-			.addTo(base.controller);	
+			.addTo(base.controller);
 
 		new ScrollScene({
 		   triggerElement: '#content-wrapper',
-				offset: 5250,
-				duration: 100
+				offset: 5550,
+				duration: 500
 			})
 			.setTween(TweenMax.fromTo(".scrollContent", 0.5, 
 					{"left": "0px"},

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 18.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 612 792" enable-background="new 0 0 612 792" xml:space="preserve">
+<g id="data_access">
+	<path fill="#69BE28" d="M-2.2-162.6h464.9v118.2H-2.2V-162.6z"/>
+	<text transform="matrix(1 0 0 1 24.2735 -133.9116)" fill="#FFFFFF" font-family="'OpenSans'" font-size="14.938">Data Access</text>
+</g>
+<g id="hdfs">
+	<path fill="#B3E28A" d="M-2.2,27.6h464.9v59.6H-2.2V27.6z"/>
+	<text transform="matrix(1 0 0 1 24.2735 72.3467)" fill="#69BE28" font-family="'MyriadPro-Regular'" font-size="14.938">HDFS (Data Management)</text>
+	<path fill="#44697D" d="M-2.2-37.3h464.9v58.1H-2.2V-37.3z"/>
+	<text transform="matrix(1 0 0 1 23.9253 8.8955)" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="14.938">YARN: Data Operating System</text>
+</g>
+<g id="security">
+	<text transform="matrix(1 0 0 1 492.3614 -136.459)" fill="#69BE28" font-family="'MyriadPro-Regular'" font-size="11.1119">Security</text>
+	<path fill="none" stroke="#69BE28" stroke-miterlimit="10" d="M477.5-161.7h100.2V87.4H477.5V-161.7L477.5-161.7z"/>
+</g>
+<g id="governance_integration">
+	<text transform="matrix(1 0 0 1 -100.3833 -136.459)" fill="#69BE28" font-family="'MyriadPro-Regular'" font-size="11.1119">Governance</text>
+	<text transform="matrix(1 0 0 1 -100.3833 -123.1255)" fill="#69BE28" font-family="'MyriadPro-Regular'" font-size="11.1119">Integration</text>
+	<path fill="none" stroke="#69BE28" stroke-miterlimit="10" d="M-115.1-161.7h99.9V87.4h-99.9V-161.7z"/>
+</g>
+<g id="operations">
+	<text transform="matrix(1 0 0 1 605.1895 -136.459)" fill="#69BE28" font-family="'MyriadPro-Regular'" font-size="11.1119">Operations</text>
+	<path fill="none" stroke="#69BE28" stroke-miterlimit="10" d="M590.1-161.7h99.9V87.4h-99.9V-161.7L590.1-161.7z"/>
+</g>
+<g id="element_1">
+	<path fill="#FFFFFF" d="M83-85H33.5c-1.8,0-2.9,1.2-2.9,2.9v49.8c0,1.8,1.2,2.9,2.9,2.9h12.7l1.5,5.3c0,1.8,1.2,2.9,2.9,2.9h15
+		c1.8,0,2.9-1.2,2.9-2.9l1.5-5.3h12.7c1.8,0,2.9-1.2,2.9-2.9v-50.1C86-83.8,84.8-85,83-85z"/>
+	<text transform="matrix(1 0 0 1 41.9849 -51.2187)" fill="#B3E28A" font-family="'OpenSans-Semibold'" font-size="11.7369">Batch</text>
+</g>
+<g id="element_2">
+	<path fill="#FFFFFF" d="M152.6-85h-49.8c-1.8,0-2.9,1.2-2.9,2.9v49.8c0,1.8,1.2,2.9,2.9,2.9h12.7l1.5,5.3c0,1.8,1.2,2.9,2.9,2.9h15
+		c1.8,0,2.9-1.2,2.9-2.9l1.5-5.3H152c1.8,0,2.9-1.2,2.9-2.9v-50.1C155.9-83.8,154.4-85,152.6-85z"/>
+	<text transform="matrix(1 0 0 1 111.772 -52.2842)" fill="#B3E28A" font-family="'OpenSans-Semibold'" font-size="11.7369">Script</text>
+</g>
+<g id="element_3">
+	<path fill="#FFFFFF" d="M222.5-85h-49.8c-1.8,0-2.9,1.2-2.9,2.9v49.8c0,1.8,1.2,2.9,2.9,2.9h13l1.5,5.3c0,1.8,1.2,2.9,2.9,2.9h15
+		c1.8,0,2.9-1.2,2.9-2.9l1.5-5.3h12.7c1.8,0,2.9-1.2,2.9-2.9v-50.1C225.4-83.8,224.3-85,222.5-85z"/>
+	<text transform="matrix(1 0 0 1 186.8154 -51.7578)" fill="#B3E28A" font-family="'OpenSans-Semibold'" font-size="11.7369">SQL</text>
+</g>
+<g id="element_4">
+	<path fill="#FFFFFF" d="M292.7-85h-49.8c-1.8,0-2.9,1.2-2.9,2.9v49.8c0,1.8,1.2,2.9,2.9,2.9h12.7L257-24c0,1.8,1.2,2.9,2.9,2.9h15
+		c1.8,0,2.9-1.2,2.9-2.9l1.5-5.3h12.7c1.8,0,2.9-1.2,2.9-2.9v-50.1C295.3-83.8,294.1-85,292.7-85z"/>
+	<text transform="matrix(1 0 0 1 249.4072 -52.8174)" fill="#B3E28A" font-family="'OpenSans-Semibold'" font-size="11.7369">NoSQL</text>
+</g>
+<g id="element_5">
+	<path fill="#FFFFFF" d="M362.8-85H313c-1.8,0-2.9,1.2-2.9,2.9v49.8c0,1.8,1.2,2.9,2.9,2.9h12.7l1.5,5.3c0,1.8,1.2,2.9,2.9,2.9h15
+		c1.8,0,2.9-1.2,2.9-2.9l1.5-5.3h12.7c1.8,0,2.9-1.2,2.9-2.9v-50.1C365.8-83.8,364.6-85,362.8-85z"/>
+	<text transform="matrix(1 0 0 1 316.8916 -52.2842)" fill="#B3E28A" font-family="'OpenSans-Semibold'" font-size="11.7369">Stream</text>
+</g>
+<g id="element_6">
+	<path fill="#FFFFFF" d="M430-85h-49.8c-1.8,0-2.9,1.2-2.9,2.9v49.8c0,1.8,1.2,2.9,2.9,2.9h12.7l1.5,5.3c0,1.8,1.2,2.9,2.9,2.9h15
+		c1.8,0,2.9-1.2,2.9-2.9l1.5-5.3h12.7c1.8,0,2.9-1.2,2.9-2.9v-50.1C433-83.8,431.5-85,430-85z"/>
+	<text transform="matrix(1 0 0 1 388.5821 -53.3559)" fill="#B3E28A" font-family="'OpenSans-Semibold'" font-size="11.7369">Other</text>
+</g>
+</svg>
