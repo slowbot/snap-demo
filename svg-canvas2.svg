@@ -9,11 +9,11 @@
 </g>
 <g id="hdfs">
 	<path fill="#B3E28A" d="M16.838,35.02h444.053v56.926H16.838V35.02z"/>
-	<text transform="matrix(1 0 0 1 42.127 77.7617)" fill="#69BE28" font-family="'MyriadPro-Regular'" font-size="14.2682">HDFS (Data Management)</text>
+	<text transform="matrix(1 0 0 1 161.627 77.7617)" fill="#69BE28" font-family="'MyriadPro-Regular'" font-size="14.2682">HDFS (Data Management)</text>
 </g>
 <g id="yarn">
 	<path fill="#44697D" d="M16.838-26.97h444.053v55.496H16.838V-26.97z"/>
-	<text transform="matrix(1 0 0 1 41.7949 17.1543)" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="14.2682">YARN: Data Operating System</text>
+	<text transform="matrix(1 0 0 1 151.2949 17.1543)" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="14.2682">YARN: Data Operating System</text>
 </g>
 <g id="security">
 	<text transform="matrix(1 0 0 1 489.2256 -121.6836)" fill="#69BE28" font-family="'MyriadPro-Regular'" font-size="10.6136">Security</text>
