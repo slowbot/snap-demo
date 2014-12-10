@@ -65,7 +65,7 @@ $(function() {
 				.to(e.yarn.element, 1, {
 					snap: {
 						scale: 2,
-					  ty: -60,
+					  ty: -70,
 					  opacity: 1
 					}
 				})
