@@ -268,8 +268,10 @@
 	<text transform="matrix(1 0 0 1 161.627 76.7612)" fill="#69BE28" font-family="'MyriadPro-Regular'" font-size="14.2682">HDFS (Data Management)</text>
 </g>
 <g id="data_access">
-	<path fill="#69BE28" d="M16.838-146.652h444.053v112.899H16.838V-146.652z"/>
-	<text transform="matrix(1 0 0 1 42.127 -119.249)" fill="#FFFFFF" font-family="'OpenSans'" font-size="14.2682">Data Access</text>
+	<path fill="none" stroke="#69BE28" stroke-miterlimit="10" d="M16.838-146.652h444.053v112.899H16.838V-146.652z"/>
+	<path fill="#69BE28" d="M17.305-146.793h444.053v40.399H17.305V-146.793z"/>
+	<path opacity="0.5" fill="#69BE28" d="M17.305-106.394h444.053v72.642H17.305V-106.394z"/>
+	<text transform="matrix(1 0 0 1 42.127 -121.2505)" fill="#FFFFFF" font-family="'OpenSans'" font-size="14.2682">Data Access</text>
 </g>
 <g id="yarn">
 	<path fill="#44697D" d="M16.838-26.97h444.053v55.496H16.838V-26.97z"/>
