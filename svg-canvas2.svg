@@ -1,58 +1,67 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 18.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 612 792" enable-background="new 0 0 612 792" xml:space="preserve">
+	 width="342px" height="342px" viewBox="0 0 342 342" enable-background="new 0 0 342 342" xml:space="preserve">
 <g id="data_access">
-	<path fill="#69BE28" d="M-2.2-162.6h464.9v118.2H-2.2V-162.6z"/>
-	<text transform="matrix(1 0 0 1 24.2735 -133.9116)" fill="#FFFFFF" font-family="'OpenSans'" font-size="14.938">Data Access</text>
+	<path fill="#69BE28" d="M37.914-70.214h200.752v51.041H37.914V-70.214z"/>
+	<text transform="matrix(1 0 0 1 49.3452 -57.8257)" fill="#FFFFFF" font-family="'OpenSans'" font-size="6.4505">Data Access</text>
 </g>
 <g id="hdfs">
-	<path fill="#B3E28A" d="M-2.2,27.6h464.9v59.6H-2.2V27.6z"/>
-	<text transform="matrix(1 0 0 1 24.2735 72.3467)" fill="#69BE28" font-family="'MyriadPro-Regular'" font-size="14.938">HDFS (Data Management)</text>
-	<path fill="#44697D" d="M-2.2-37.3h464.9v58.1H-2.2V-37.3z"/>
-	<text transform="matrix(1 0 0 1 23.9253 8.8955)" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="14.938">YARN: Data Operating System</text>
+	<path fill="#B3E28A" d="M37.914,11.918h200.752v25.736H37.914V11.918z"/>
+	<text transform="matrix(1 0 0 1 49.3452 31.2407)" fill="#69BE28" font-family="'MyriadPro-Regular'" font-size="6.4505">HDFS (Data Management)</text>
+</g>
+<g id="yarn">
+	<path fill="#44697D" d="M37.914-16.107h200.752V8.982H37.914V-16.107z"/>
+	<text transform="matrix(1 0 0 1 49.1948 3.8413)" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="6.4505">YARN: Data Operating System</text>
 </g>
 <g id="security">
-	<text transform="matrix(1 0 0 1 492.3614 -136.459)" fill="#69BE28" font-family="'MyriadPro-Regular'" font-size="11.1119">Security</text>
-	<path fill="none" stroke="#69BE28" stroke-miterlimit="10" d="M477.5-161.7h100.2V87.4H477.5V-161.7L477.5-161.7z"/>
+	<text transform="matrix(1 0 0 1 251.4746 -58.9253)" fill="#69BE28" font-family="'MyriadPro-Regular'" font-size="4.7983">Security</text>
+	<path fill="none" stroke="#69BE28" stroke-miterlimit="10" d="M245.057-69.825h43.269V37.741h-43.269V-69.825L245.057-69.825z"/>
 </g>
 <g id="governance_integration">
-	<text transform="matrix(1 0 0 1 -100.3833 -136.459)" fill="#69BE28" font-family="'MyriadPro-Regular'" font-size="11.1119">Governance</text>
-	<text transform="matrix(1 0 0 1 -100.3833 -123.1255)" fill="#69BE28" font-family="'MyriadPro-Regular'" font-size="11.1119">Integration</text>
-	<path fill="none" stroke="#69BE28" stroke-miterlimit="10" d="M-115.1-161.7h99.9V87.4h-99.9V-161.7z"/>
+	<text transform="matrix(1 0 0 1 -4.4839 -58.9253)" fill="#69BE28" font-family="'MyriadPro-Regular'" font-size="4.7983">Governance</text>
+	<text transform="matrix(1 0 0 1 -4.4839 -53.168)" fill="#69BE28" font-family="'MyriadPro-Regular'" font-size="4.7983">Integration</text>
+	<path fill="none" stroke="#69BE28" stroke-miterlimit="10" d="M-10.839-69.825H32.3V37.741h-43.139V-69.825z"/>
 </g>
 <g id="operations">
-	<text transform="matrix(1 0 0 1 605.1895 -136.459)" fill="#69BE28" font-family="'MyriadPro-Regular'" font-size="11.1119">Operations</text>
-	<path fill="none" stroke="#69BE28" stroke-miterlimit="10" d="M590.1-161.7h99.9V87.4h-99.9V-161.7L590.1-161.7z"/>
+	<text transform="matrix(1 0 0 1 300.1953 -58.9253)" fill="#69BE28" font-family="'MyriadPro-Regular'" font-size="4.7983">Operations</text>
+	<path fill="none" stroke="#69BE28" stroke-miterlimit="10" d="M293.68-69.825h43.139V37.741H293.68V-69.825L293.68-69.825z"/>
 </g>
 <g id="element_1">
-	<path fill="#FFFFFF" d="M83-85H33.5c-1.8,0-2.9,1.2-2.9,2.9v49.8c0,1.8,1.2,2.9,2.9,2.9h12.7l1.5,5.3c0,1.8,1.2,2.9,2.9,2.9h15
-		c1.8,0,2.9-1.2,2.9-2.9l1.5-5.3h12.7c1.8,0,2.9-1.2,2.9-2.9v-50.1C86-83.8,84.8-85,83-85z"/>
-	<text transform="matrix(1 0 0 1 41.9849 -51.2187)" fill="#B3E28A" font-family="'OpenSans-Semibold'" font-size="11.7369">Batch</text>
+	<path fill="#FFFFFF" d="M74.705-36.705H53.33c-0.777,0-1.252,0.518-1.252,1.252v21.504c0,0.777,0.518,1.252,1.252,1.252h5.484
+		l0.648,2.289c0,0.777,0.518,1.252,1.252,1.252h6.477c0.777,0,1.252-0.519,1.252-1.252l0.647-2.289h5.484
+		c0.777,0,1.252-0.519,1.252-1.252v-21.634C76-36.187,75.482-36.705,74.705-36.705z"/>
+	<text transform="matrix(1 0 0 1 56.9937 -22.1172)" fill="#B3E28A" font-family="'OpenSans-Semibold'" font-size="5.0682">Batch</text>
 </g>
 <g id="element_2">
-	<path fill="#FFFFFF" d="M152.6-85h-49.8c-1.8,0-2.9,1.2-2.9,2.9v49.8c0,1.8,1.2,2.9,2.9,2.9h12.7l1.5,5.3c0,1.8,1.2,2.9,2.9,2.9h15
-		c1.8,0,2.9-1.2,2.9-2.9l1.5-5.3H152c1.8,0,2.9-1.2,2.9-2.9v-50.1C155.9-83.8,154.4-85,152.6-85z"/>
-	<text transform="matrix(1 0 0 1 111.772 -52.2842)" fill="#B3E28A" font-family="'OpenSans-Semibold'" font-size="11.7369">Script</text>
+	<path fill="#FFFFFF" d="M104.759-36.705H83.254c-0.777,0-1.252,0.518-1.252,1.252v21.504c0,0.777,0.518,1.252,1.252,1.252h5.484
+		l0.647,2.289c0,0.777,0.518,1.252,1.252,1.252h6.477c0.777,0,1.252-0.519,1.252-1.252l0.648-2.289h5.484
+		c0.777,0,1.252-0.519,1.252-1.252v-21.634C106.184-36.187,105.536-36.705,104.759-36.705z"/>
+	<text transform="matrix(1 0 0 1 87.1289 -22.5771)" fill="#B3E28A" font-family="'OpenSans-Semibold'" font-size="5.0682">Script</text>
 </g>
 <g id="element_3">
-	<path fill="#FFFFFF" d="M222.5-85h-49.8c-1.8,0-2.9,1.2-2.9,2.9v49.8c0,1.8,1.2,2.9,2.9,2.9h13l1.5,5.3c0,1.8,1.2,2.9,2.9,2.9h15
-		c1.8,0,2.9-1.2,2.9-2.9l1.5-5.3h12.7c1.8,0,2.9-1.2,2.9-2.9v-50.1C225.4-83.8,224.3-85,222.5-85z"/>
-	<text transform="matrix(1 0 0 1 186.8154 -51.7578)" fill="#B3E28A" font-family="'OpenSans-Semibold'" font-size="11.7369">SQL</text>
+	<path fill="#FFFFFF" d="M134.943-36.705h-21.505c-0.777,0-1.252,0.518-1.252,1.252v21.504c0,0.777,0.518,1.252,1.252,1.252h5.614
+		l0.648,2.289c0,0.777,0.518,1.252,1.252,1.252h6.478c0.777,0,1.252-0.519,1.252-1.252l0.648-2.289h5.484
+		c0.777,0,1.252-0.519,1.252-1.252v-21.634C136.195-36.187,135.72-36.705,134.943-36.705z"/>
+	<text transform="matrix(1 0 0 1 119.5337 -22.3501)" fill="#B3E28A" font-family="'OpenSans-Semibold'" font-size="5.0682">SQL</text>
 </g>
 <g id="element_4">
-	<path fill="#FFFFFF" d="M292.7-85h-49.8c-1.8,0-2.9,1.2-2.9,2.9v49.8c0,1.8,1.2,2.9,2.9,2.9h12.7L257-24c0,1.8,1.2,2.9,2.9,2.9h15
-		c1.8,0,2.9-1.2,2.9-2.9l1.5-5.3h12.7c1.8,0,2.9-1.2,2.9-2.9v-50.1C295.3-83.8,294.1-85,292.7-85z"/>
-	<text transform="matrix(1 0 0 1 249.4072 -52.8174)" fill="#B3E28A" font-family="'OpenSans-Semibold'" font-size="11.7369">NoSQL</text>
+	<path fill="#FFFFFF" d="M165.257-36.705h-21.504c-0.777,0-1.252,0.518-1.252,1.252v21.504c0,0.777,0.518,1.252,1.252,1.252h5.484
+		l0.604,2.332c0,0.777,0.518,1.252,1.252,1.252h6.477c0.777,0,1.252-0.518,1.252-1.252l0.647-2.289h5.484
+		c0.777,0,1.252-0.518,1.252-1.252v-21.634C166.379-36.187,165.861-36.705,165.257-36.705z"/>
+	<text transform="matrix(1 0 0 1 146.562 -22.8076)" fill="#B3E28A" font-family="'OpenSans-Semibold'" font-size="5.0682">NoSQL</text>
 </g>
 <g id="element_5">
-	<path fill="#FFFFFF" d="M362.8-85H313c-1.8,0-2.9,1.2-2.9,2.9v49.8c0,1.8,1.2,2.9,2.9,2.9h12.7l1.5,5.3c0,1.8,1.2,2.9,2.9,2.9h15
-		c1.8,0,2.9-1.2,2.9-2.9l1.5-5.3h12.7c1.8,0,2.9-1.2,2.9-2.9v-50.1C365.8-83.8,364.6-85,362.8-85z"/>
-	<text transform="matrix(1 0 0 1 316.8916 -52.2842)" fill="#B3E28A" font-family="'OpenSans-Semibold'" font-size="11.7369">Stream</text>
+	<path fill="#FFFFFF" d="M195.527-36.705h-21.504c-0.777,0-1.253,0.518-1.253,1.252v21.504c0,0.777,0.519,1.252,1.253,1.252h5.483
+		l0.647,2.289c0,0.777,0.519,1.252,1.252,1.252h6.479c0.776,0,1.252-0.519,1.252-1.252l0.647-2.289h5.483
+		c0.777,0,1.253-0.519,1.253-1.252v-21.634C196.822-36.187,196.305-36.705,195.527-36.705z"/>
+	<text transform="matrix(1 0 0 1 175.7031 -22.5771)" fill="#B3E28A" font-family="'OpenSans-Semibold'" font-size="5.0682">Stream</text>
 </g>
 <g id="element_6">
-	<path fill="#FFFFFF" d="M430-85h-49.8c-1.8,0-2.9,1.2-2.9,2.9v49.8c0,1.8,1.2,2.9,2.9,2.9h12.7l1.5,5.3c0,1.8,1.2,2.9,2.9,2.9h15
-		c1.8,0,2.9-1.2,2.9-2.9l1.5-5.3h12.7c1.8,0,2.9-1.2,2.9-2.9v-50.1C433-83.8,431.5-85,430-85z"/>
-	<text transform="matrix(1 0 0 1 388.5821 -53.3559)" fill="#B3E28A" font-family="'OpenSans-Semibold'" font-size="11.7369">Other</text>
+	<path fill="#FFFFFF" d="M224.545-36.705h-21.504c-0.777,0-1.252,0.518-1.252,1.252v21.504c0,0.777,0.518,1.252,1.252,1.252h5.484
+		l0.647,2.289c0,0.777,0.519,1.252,1.252,1.252h6.478c0.777,0,1.252-0.519,1.252-1.252l0.648-2.289h5.483
+		c0.777,0,1.253-0.519,1.253-1.252v-21.634C225.841-36.187,225.193-36.705,224.545-36.705z"/>
+	<text transform="matrix(1 0 0 1 206.6602 -23.04)" fill="#B3E28A" font-family="'OpenSans-Semibold'" font-size="5.0682">Other</text>
 </g>
 </svg>

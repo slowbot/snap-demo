@@ -6,6 +6,7 @@ $(function() {
     var element_names = [
 		'data_access',
 		'hdfs',
+		'yarn',
 		'security',
 		'operations',
 		'governance_integration',
@@ -45,6 +46,30 @@ $(function() {
     	.setPin('#pin')
 
   		.addTo(base.controller);
+
+  	// Scene 0
+  	new ScrollScene({
+	    	triggerElement: '#content-wrapper',
+				offset: 500,
+				duration: 900
+			})
+			
+			.setTween(new TimelineMax()
+				.set(e.yarn.element, {
+					snap: {
+					  scale: 2,
+					  ty: -1000,
+					  opacity: 0
+					}
+				})
+				.to(e.yarn.element, 1, {
+					snap: {
+					  ty: 0,
+					  opacity: 1
+					}
+			}))
+
+			.addTo(base.controller);
 
   	// Scene 1
   	new ScrollScene({
