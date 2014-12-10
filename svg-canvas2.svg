@@ -280,15 +280,24 @@
 <g id="security">
 	<text transform="matrix(1 0 0 1 489.2256 -121.6836)" fill="#69BE28" font-family="'MyriadPro-Regular'" font-size="10.6136">Security</text>
 	<path fill="none" stroke="#69BE28" stroke-miterlimit="10" d="M475.027-145.792h95.708V108.5h-95.708V-145.792L475.027-145.792z"/>
+	<g id="security_pointer">
+		<polygon fill="#EEEEEE" points="484.58,196.512 522.882,121.512 561.184,196.512 		"/>
+	</g>
 </g>
 <g id="governance_integration">
 	<text transform="matrix(1 0 0 1 -76.9424 -121.6836)" fill="#69BE28" font-family="'MyriadPro-Regular'" font-size="10.6136">Governance</text>
 	<text transform="matrix(1 0 0 1 -76.9424 -108.9463)" fill="#69BE28" font-family="'MyriadPro-Regular'" font-size="10.6136">Integration</text>
 	<path fill="none" stroke="#69BE28" stroke-miterlimit="10" d="M-91-145.792H4.42V108.5H-91V-145.792z"/>
+	<g id="governance_pointer">
+		<polygon fill="#EEEEEE" points="-81.591,197.014 -43.29,122.014 -4.989,197.014 		"/>
+	</g>
 </g>
 <g id="operations">
 	<text transform="matrix(1 0 0 1 596.9951 -121.6836)" fill="#69BE28" font-family="'MyriadPro-Regular'" font-size="10.6136">Operations</text>
 	<path fill="none" stroke="#69BE28" stroke-miterlimit="10" d="M582.581-145.792H678V108.5h-95.419V-145.792L582.581-145.792z"/>
+	<g id="operations_pointer">
+		<polygon fill="#EEEEEE" points="592.991,196.512 631.293,121.512 669.595,196.512 		"/>
+	</g>
 </g>
 <g id="element_1">
 	<path fill="#FFFFFF" d="M98.217-72.53h-47.28c-1.72,0-2.771,1.145-2.771,2.77v47.567c0,1.72,1.146,2.77,2.771,2.77h12.13

@@ -7,6 +7,9 @@ $(function() {
 		'data_access',
 		'hdfs',
 		'yarn',
+		'security_pointer',
+		'operations_pointer',
+		'governance_pointer',
 		'security',
 		'operations',
 		'governance_integration',
@@ -298,6 +301,39 @@ $(function() {
 		new ScrollScene({
 		    triggerElement: '#content-wrapper',
 				offset: 2950,
+				duration: 1200
+			})
+			.setTween(new TimelineMax()
+				.set(e.governance_pointer.element, {
+					snap: {
+						tx: -1000,
+						opacity: 0
+					}
+				})
+				.to(e.governance_pointer.element, 1, {
+					snap: {
+						tx: 0,
+						opacity: 1,
+					},
+					ease: Linear.easeNone
+				})
+				.to(e.governance_pointer.element, 0.2, {
+					snap: {
+						tx: 0,
+						opacity: 0,
+					},
+					ease: Linear.easeNone
+				})
+
+			)
+
+
+			.addTo(base.controller);
+
+
+		new ScrollScene({
+		    triggerElement: '#content-wrapper',
+				offset: 2950,
 				duration: 1000
 			})
 			.setTween(new TimelineMax()
@@ -377,6 +413,36 @@ $(function() {
 		new ScrollScene({
 		    	triggerElement: '#content-wrapper',
 				offset: 3650,
+				duration: 1800
+			})
+
+			.setTween(new TimelineMax()
+				.set(e.security_pointer.element, {
+					snap: {
+						opacity: 0,
+					    tx: 1000
+					}
+				})
+				.to(e.security_pointer.element, 1, {
+					snap: {
+						opacity: 1,
+						tx: 0
+					},
+					ease: Linear.easeNone
+				})
+				.to(e.security_pointer.element, 0.2, {
+					snap: {
+						opacity: 0,
+						tx: 0
+					},
+					ease: Linear.easeNone
+				}))
+
+			.addTo(base.controller);
+
+		new ScrollScene({
+		    	triggerElement: '#content-wrapper',
+				offset: 3650,
 				duration: 1500
 			})
 
@@ -449,6 +515,35 @@ $(function() {
 					{"left": "0px",
 					ease: Linear.easeNone}
 				))
+
+			.addTo(base.controller);
+
+		new ScrollScene({
+		    	triggerElement: '#content-wrapper',
+				offset: 5450,
+				duration: 1200
+			})
+			.setTween(new TimelineMax()
+				.set(e.operations_pointer.element, {
+					snap: {
+						opacity: 0,
+					    tx: 1000
+					}
+				})
+				.to(e.operations_pointer.element, 1, {
+					snap: {
+						opacity: 1,
+						tx: 0
+					},
+					ease: Linear.easeNone
+				})
+				.to(e.operations_pointer.element, 0.2, {
+					snap: {
+						opacity: 0,
+						tx: 0
+					},
+					ease: Linear.easeNone
+				}))
 
 			.addTo(base.controller);
 
