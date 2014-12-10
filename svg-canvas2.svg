@@ -4,64 +4,65 @@
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 width="342px" height="342px" viewBox="0 0 342 342" enable-background="new 0 0 342 342" xml:space="preserve">
 <g id="data_access">
-	<path fill="#69BE28" d="M37.914-70.214h200.752v51.041H37.914V-70.214z"/>
-	<text transform="matrix(1 0 0 1 49.3452 -57.8257)" fill="#FFFFFF" font-family="'OpenSans'" font-size="6.4505">Data Access</text>
+	<path fill="#69BE28" d="M16.838-146.652h444.053v112.899H16.838V-146.652z"/>
+	<text transform="matrix(1 0 0 1 42.127 -119.249)" fill="#FFFFFF" font-family="'OpenSans'" font-size="14.2682">Data Access</text>
 </g>
 <g id="hdfs">
-	<path fill="#B3E28A" d="M37.914,11.918h200.752v25.736H37.914V11.918z"/>
-	<text transform="matrix(1 0 0 1 49.3452 31.2407)" fill="#69BE28" font-family="'MyriadPro-Regular'" font-size="6.4505">HDFS (Data Management)</text>
+	<path fill="#B3E28A" d="M16.838,35.02h444.053v56.926H16.838V35.02z"/>
+	<text transform="matrix(1 0 0 1 42.127 77.7617)" fill="#69BE28" font-family="'MyriadPro-Regular'" font-size="14.2682">HDFS (Data Management)</text>
 </g>
 <g id="yarn">
-	<path fill="#44697D" d="M37.914-16.107h200.752V8.982H37.914V-16.107z"/>
-	<text transform="matrix(1 0 0 1 49.1948 3.8413)" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="6.4505">YARN: Data Operating System</text>
+	<path fill="#44697D" d="M16.838-26.97h444.053v55.496H16.838V-26.97z"/>
+	<text transform="matrix(1 0 0 1 41.7949 17.1543)" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="14.2682">YARN: Data Operating System</text>
 </g>
 <g id="security">
-	<text transform="matrix(1 0 0 1 251.4746 -58.9253)" fill="#69BE28" font-family="'MyriadPro-Regular'" font-size="4.7983">Security</text>
-	<path fill="none" stroke="#69BE28" stroke-miterlimit="10" d="M245.057-69.825h43.269V37.741h-43.269V-69.825L245.057-69.825z"/>
+	<text transform="matrix(1 0 0 1 489.2256 -121.6836)" fill="#69BE28" font-family="'MyriadPro-Regular'" font-size="10.6136">Security</text>
+	<path fill="none" stroke="#69BE28" stroke-miterlimit="10" d="M475.027-145.792h95.708V92.138h-95.708V-145.792L475.027-145.792z"
+		/>
 </g>
 <g id="governance_integration">
-	<text transform="matrix(1 0 0 1 -4.4839 -58.9253)" fill="#69BE28" font-family="'MyriadPro-Regular'" font-size="4.7983">Governance</text>
-	<text transform="matrix(1 0 0 1 -4.4839 -53.168)" fill="#69BE28" font-family="'MyriadPro-Regular'" font-size="4.7983">Integration</text>
-	<path fill="none" stroke="#69BE28" stroke-miterlimit="10" d="M-10.839-69.825H32.3V37.741h-43.139V-69.825z"/>
+	<text transform="matrix(1 0 0 1 -76.9424 -121.6836)" fill="#69BE28" font-family="'MyriadPro-Regular'" font-size="10.6136">Governance</text>
+	<text transform="matrix(1 0 0 1 -76.9424 -108.9463)" fill="#69BE28" font-family="'MyriadPro-Regular'" font-size="10.6136">Integration</text>
+	<path fill="none" stroke="#69BE28" stroke-miterlimit="10" d="M-91-145.792H4.42V92.138H-91V-145.792z"/>
 </g>
 <g id="operations">
-	<text transform="matrix(1 0 0 1 300.1953 -58.9253)" fill="#69BE28" font-family="'MyriadPro-Regular'" font-size="4.7983">Operations</text>
-	<path fill="none" stroke="#69BE28" stroke-miterlimit="10" d="M293.68-69.825h43.139V37.741H293.68V-69.825L293.68-69.825z"/>
+	<text transform="matrix(1 0 0 1 596.9951 -121.6836)" fill="#69BE28" font-family="'MyriadPro-Regular'" font-size="10.6136">Operations</text>
+	<path fill="none" stroke="#69BE28" stroke-miterlimit="10" d="M582.581-145.792H678V92.138h-95.419V-145.792L582.581-145.792z"/>
 </g>
 <g id="element_1">
-	<path fill="#FFFFFF" d="M74.705-36.705H53.33c-0.777,0-1.252,0.518-1.252,1.252v21.504c0,0.777,0.518,1.252,1.252,1.252h5.484
-		l0.648,2.289c0,0.777,0.518,1.252,1.252,1.252h6.477c0.777,0,1.252-0.519,1.252-1.252l0.647-2.289h5.484
-		c0.777,0,1.252-0.519,1.252-1.252v-21.634C76-36.187,75.482-36.705,74.705-36.705z"/>
-	<text transform="matrix(1 0 0 1 56.9937 -22.1172)" fill="#B3E28A" font-family="'OpenSans-Semibold'" font-size="5.0682">Batch</text>
+	<path fill="#FFFFFF" d="M98.217-72.53h-47.28c-1.72,0-2.771,1.145-2.771,2.77v47.567c0,1.72,1.146,2.77,2.771,2.77h12.13
+		l1.433,5.062c0,1.719,1.146,2.77,2.771,2.77h14.327c1.719,0,2.77-1.147,2.77-2.77l1.431-5.062h12.131c1.719,0,2.77-1.147,2.77-2.77
+		v-47.854C101.083-71.386,99.937-72.53,98.217-72.53z"/>
+	<text transform="matrix(1 0 0 1 59.0469 -40.2627)" fill="#B3E28A" font-family="'OpenSans-Semibold'" font-size="11.2106">Batch</text>
 </g>
 <g id="element_2">
-	<path fill="#FFFFFF" d="M104.759-36.705H83.254c-0.777,0-1.252,0.518-1.252,1.252v21.504c0,0.777,0.518,1.252,1.252,1.252h5.484
-		l0.647,2.289c0,0.777,0.518,1.252,1.252,1.252h6.477c0.777,0,1.252-0.519,1.252-1.252l0.648-2.289h5.484
-		c0.777,0,1.252-0.519,1.252-1.252v-21.634C106.184-36.187,105.536-36.705,104.759-36.705z"/>
-	<text transform="matrix(1 0 0 1 87.1289 -22.5771)" fill="#B3E28A" font-family="'OpenSans-Semibold'" font-size="5.0682">Script</text>
+	<path fill="#FFFFFF" d="M164.698-72.53h-47.568c-1.72,0-2.77,1.145-2.77,2.77v47.567c0,1.72,1.146,2.77,2.77,2.77h12.131
+		l1.432,5.062c0,1.719,1.146,2.77,2.771,2.77h14.327c1.72,0,2.771-1.147,2.771-2.77l1.433-5.062h12.129
+		c1.719,0,2.771-1.147,2.771-2.77v-47.854C167.849-71.386,166.415-72.53,164.698-72.53z"/>
+	<text transform="matrix(1 0 0 1 125.7041 -41.2822)" fill="#B3E28A" font-family="'OpenSans-Semibold'" font-size="11.2106">Script</text>
 </g>
 <g id="element_3">
-	<path fill="#FFFFFF" d="M134.943-36.705h-21.505c-0.777,0-1.252,0.518-1.252,1.252v21.504c0,0.777,0.518,1.252,1.252,1.252h5.614
-		l0.648,2.289c0,0.777,0.518,1.252,1.252,1.252h6.478c0.777,0,1.252-0.519,1.252-1.252l0.648-2.289h5.484
-		c0.777,0,1.252-0.519,1.252-1.252v-21.634C136.195-36.187,135.72-36.705,134.943-36.705z"/>
-	<text transform="matrix(1 0 0 1 119.5337 -22.3501)" fill="#B3E28A" font-family="'OpenSans-Semibold'" font-size="5.0682">SQL</text>
+	<path fill="#FFFFFF" d="M231.463-72.53h-47.568c-1.719,0-2.769,1.145-2.769,2.77v47.567c0,1.72,1.146,2.77,2.769,2.77h12.418
+		l1.434,5.062c0,1.719,1.146,2.77,2.77,2.77h14.327c1.72,0,2.77-1.147,2.77-2.77l1.434-5.062h12.13c1.72,0,2.771-1.147,2.771-2.77
+		v-47.854C234.232-71.386,233.181-72.53,231.463-72.53z"/>
+	<text transform="matrix(1 0 0 1 197.3799 -40.7803)" fill="#B3E28A" font-family="'OpenSans-Semibold'" font-size="11.2106">SQL</text>
 </g>
 <g id="element_4">
-	<path fill="#FFFFFF" d="M165.257-36.705h-21.504c-0.777,0-1.252,0.518-1.252,1.252v21.504c0,0.777,0.518,1.252,1.252,1.252h5.484
-		l0.604,2.332c0,0.777,0.518,1.252,1.252,1.252h6.477c0.777,0,1.252-0.518,1.252-1.252l0.647-2.289h5.484
-		c0.777,0,1.252-0.518,1.252-1.252v-21.634C166.379-36.187,165.861-36.705,165.257-36.705z"/>
-	<text transform="matrix(1 0 0 1 146.562 -22.8076)" fill="#B3E28A" font-family="'OpenSans-Semibold'" font-size="5.0682">NoSQL</text>
+	<path fill="#FFFFFF" d="M298.515-72.53h-47.565c-1.72,0-2.771,1.145-2.771,2.77v47.567c0,1.72,1.146,2.77,2.771,2.77h12.128
+		l1.338,5.157c0,1.719,1.146,2.771,2.771,2.771h14.327c1.719,0,2.771-1.147,2.771-2.771l1.432-5.062h12.132
+		c1.72,0,2.77-1.146,2.77-2.77v-47.854C300.997-71.386,299.852-72.53,298.515-72.53z"/>
+	<text transform="matrix(1 0 0 1 257.167 -41.791)" fill="#B3E28A" font-family="'OpenSans-Semibold'" font-size="11.2106">NoSQL</text>
 </g>
 <g id="element_5">
-	<path fill="#FFFFFF" d="M195.527-36.705h-21.504c-0.777,0-1.253,0.518-1.253,1.252v21.504c0,0.777,0.519,1.252,1.253,1.252h5.483
-		l0.647,2.289c0,0.777,0.519,1.252,1.252,1.252h6.479c0.776,0,1.252-0.519,1.252-1.252l0.647-2.289h5.483
-		c0.777,0,1.253-0.519,1.253-1.252v-21.634C196.822-36.187,196.305-36.705,195.527-36.705z"/>
-	<text transform="matrix(1 0 0 1 175.7031 -22.5771)" fill="#B3E28A" font-family="'OpenSans-Semibold'" font-size="5.0682">Stream</text>
+	<path fill="#FFFFFF" d="M365.473-72.53h-47.566c-1.72,0-2.771,1.145-2.771,2.77v47.567c0,1.72,1.147,2.77,2.771,2.77h12.13
+		l1.432,5.062c0,1.719,1.146,2.77,2.769,2.77h14.33c1.718,0,2.77-1.147,2.77-2.77l1.433-5.062h12.128
+		c1.719,0,2.772-1.147,2.772-2.77v-47.854C368.336-71.386,367.19-72.53,365.473-72.53z"/>
+	<text transform="matrix(1 0 0 1 321.624 -41.2822)" fill="#B3E28A" font-family="'OpenSans-Semibold'" font-size="11.2106">Stream</text>
 </g>
 <g id="element_6">
-	<path fill="#FFFFFF" d="M224.545-36.705h-21.504c-0.777,0-1.252,0.518-1.252,1.252v21.504c0,0.777,0.518,1.252,1.252,1.252h5.484
-		l0.647,2.289c0,0.777,0.519,1.252,1.252,1.252h6.478c0.777,0,1.252-0.519,1.252-1.252l0.648-2.289h5.483
-		c0.777,0,1.253-0.519,1.253-1.252v-21.634C225.841-36.187,225.193-36.705,224.545-36.705z"/>
-	<text transform="matrix(1 0 0 1 206.6602 -23.04)" fill="#B3E28A" font-family="'OpenSans-Semibold'" font-size="5.0682">Other</text>
+	<path fill="#FFFFFF" d="M429.657-72.53h-47.566c-1.719,0-2.769,1.145-2.769,2.77v47.567c0,1.72,1.146,2.77,2.769,2.77h12.132
+		l1.434,5.062c0,1.719,1.145,2.77,2.766,2.77h14.33c1.719,0,2.769-1.147,2.769-2.77l1.435-5.062h12.128
+		c1.721,0,2.772-1.147,2.772-2.77v-47.854C432.522-71.386,431.092-72.53,429.657-72.53z"/>
+	<text transform="matrix(1 0 0 1 390.1016 -42.3047)" fill="#B3E28A" font-family="'OpenSans-Semibold'" font-size="11.2106">Other</text>
 </g>
 </svg>

@@ -51,7 +51,7 @@ $(function() {
   	new ScrollScene({
 	    	triggerElement: '#content-wrapper',
 				offset: 500,
-				duration: 900
+				duration: 1800
 			})
 			
 			.setTween(new TimelineMax()
@@ -64,10 +64,19 @@ $(function() {
 				})
 				.to(e.yarn.element, 1, {
 					snap: {
-					  ty: 0,
+						scale: 2,
+					  ty: -60,
 					  opacity: 1
 					}
-			}))
+				})
+				.to(e.yarn.element, 1, {
+					snap: {
+					  scale: 1,
+					  ty: 0,
+					  opacity: .5
+					}
+				})
+			)
 
 			.addTo(base.controller);
 
