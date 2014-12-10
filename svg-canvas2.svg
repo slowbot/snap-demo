@@ -3,13 +3,237 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 width="342px" height="342px" viewBox="0 0 342 342" enable-background="new 0 0 342 342" xml:space="preserve">
+<g id="hdfs">
+	<path fill="#B3E28A" d="M16.838,35.02h444.053v73.48H16.838V35.02z"/>
+	<path fill="#FFFFFF" stroke="#C6C6C6" stroke-width="0.5" stroke-miterlimit="10" d="M453.5,99.445c0,1.687-0.967,3.054-2.16,3.054
+		H25.16c-1.193,0-2.16-1.368-2.16-3.054V44.053c0-1.687,0.967-3.054,2.16-3.054h426.18c1.193,0,2.16,1.368,2.16,3.054V99.445z"/>
+	<g>
+		<g>
+			<path fill="#FFFFFF" stroke="#DDDDDD" stroke-width="0.5" stroke-miterlimit="10" d="M59.688,59.662
+				c0,0.812-0.658,1.469-1.469,1.469H28.97c-0.812,0-1.469-0.658-1.469-1.469V47.636c0-0.812,0.658-1.469,1.469-1.469h29.25
+				c0.812,0,1.469,0.658,1.469,1.469V59.662z"/>
+			<circle fill="#DDDDDD" stroke="#FFFFFF" stroke-width="0.5" stroke-miterlimit="10" cx="43.594" cy="53.649" r="1.702"/>
+		</g>
+		<g>
+			<path fill="#FFFFFF" stroke="#DDDDDD" stroke-width="0.5" stroke-miterlimit="10" d="M94.89,59.662
+				c0,0.812-0.658,1.469-1.469,1.469H64.171c-0.812,0-1.469-0.658-1.469-1.469V47.636c0-0.812,0.657-1.469,1.469-1.469H93.42
+				c0.812,0,1.469,0.658,1.469,1.469V59.662z"/>
+			<circle fill="#DDDDDD" stroke="#FFFFFF" stroke-width="0.5" stroke-miterlimit="10" cx="78.796" cy="53.649" r="1.702"/>
+		</g>
+		<g>
+			<path fill="#FFFFFF" stroke="#DDDDDD" stroke-width="0.5" stroke-miterlimit="10" d="M130.177,59.662
+				c0,0.812-0.657,1.469-1.469,1.469H99.458c-0.812,0-1.469-0.658-1.469-1.469V47.636c0-0.812,0.658-1.469,1.469-1.469h29.249
+				c0.812,0,1.469,0.658,1.469,1.469V59.662z"/>
+			<circle fill="#DDDDDD" stroke="#FFFFFF" stroke-width="0.5" stroke-miterlimit="10" cx="114.083" cy="53.649" r="1.702"/>
+		</g>
+		<g>
+			<path fill="#FFFFFF" stroke="#DDDDDD" stroke-width="0.5" stroke-miterlimit="10" d="M165.375,59.662
+				c0,0.812-0.658,1.469-1.469,1.469h-29.25c-0.812,0-1.469-0.658-1.469-1.469V47.636c0-0.812,0.658-1.469,1.469-1.469h29.25
+				c0.812,0,1.469,0.658,1.469,1.469V59.662z"/>
+			<circle fill="#DDDDDD" stroke="#FFFFFF" stroke-width="0.5" stroke-miterlimit="10" cx="149.282" cy="53.649" r="1.702"/>
+		</g>
+		<g>
+			<path fill="#FFFFFF" stroke="#DDDDDD" stroke-width="0.5" stroke-miterlimit="10" d="M200.344,59.662
+				c0,0.812-0.657,1.469-1.47,1.469h-29.249c-0.812,0-1.469-0.658-1.469-1.469V47.636c0-0.812,0.658-1.469,1.469-1.469h29.249
+				c0.812,0,1.47,0.658,1.47,1.469V59.662z"/>
+			<circle fill="#DDDDDD" stroke="#FFFFFF" stroke-width="0.5" stroke-miterlimit="10" cx="184.25" cy="53.649" r="1.701"/>
+		</g>
+		<g>
+			<path fill="#FFFFFF" stroke="#DDDDDD" stroke-width="0.5" stroke-miterlimit="10" d="M235.596,59.662
+				c0,0.812-0.657,1.469-1.47,1.469h-29.248c-0.812,0-1.469-0.658-1.469-1.469V47.636c0-0.812,0.657-1.469,1.469-1.469h29.248
+				c0.812,0,1.47,0.658,1.47,1.469V59.662z"/>
+			<circle fill="#DDDDDD" stroke="#FFFFFF" stroke-width="0.5" stroke-miterlimit="10" cx="219.502" cy="53.649" r="1.702"/>
+		</g>
+		<g>
+			<path fill="#FFFFFF" stroke="#DDDDDD" stroke-width="0.5" stroke-miterlimit="10" d="M270.798,59.662
+				c0,0.812-0.658,1.469-1.47,1.469h-29.249c-0.812,0-1.469-0.658-1.469-1.469V47.636c0-0.812,0.657-1.469,1.469-1.469h29.249
+				c0.812,0,1.47,0.658,1.47,1.469V59.662z"/>
+			<circle fill="#DDDDDD" stroke="#FFFFFF" stroke-width="0.5" stroke-miterlimit="10" cx="254.704" cy="53.649" r="1.701"/>
+		</g>
+		<g>
+			<path fill="#FFFFFF" stroke="#DDDDDD" stroke-width="0.5" stroke-miterlimit="10" d="M306.085,59.662
+				c0,0.812-0.658,1.469-1.47,1.469h-29.249c-0.812,0-1.469-0.658-1.469-1.469V47.636c0-0.812,0.657-1.469,1.469-1.469h29.249
+				c0.812,0,1.47,0.658,1.47,1.469V59.662z"/>
+			<circle fill="#DDDDDD" stroke="#FFFFFF" stroke-width="0.5" stroke-miterlimit="10" cx="289.991" cy="53.649" r="1.701"/>
+		</g>
+		<g>
+			<path fill="#FFFFFF" stroke="#DDDDDD" stroke-width="0.5" stroke-miterlimit="10" d="M341.283,59.662
+				c0,0.812-0.657,1.469-1.469,1.469h-29.25c-0.812,0-1.47-0.658-1.47-1.469V47.636c0-0.812,0.658-1.469,1.47-1.469h29.25
+				c0.812,0,1.469,0.658,1.469,1.469V59.662z"/>
+			<circle fill="#DDDDDD" stroke="#FFFFFF" stroke-width="0.5" stroke-miterlimit="10" cx="325.189" cy="53.649" r="1.702"/>
+		</g>
+		<g>
+			<path fill="#FFFFFF" stroke="#DDDDDD" stroke-width="0.5" stroke-miterlimit="10" d="M376.252,59.662
+				c0,0.812-0.658,1.469-1.47,1.469h-29.249c-0.812,0-1.47-0.658-1.47-1.469V47.636c0-0.812,0.657-1.469,1.47-1.469h29.249
+				c0.812,0,1.47,0.658,1.47,1.469V59.662z"/>
+			<circle fill="#DDDDDD" stroke="#FFFFFF" stroke-width="0.5" stroke-miterlimit="10" cx="360.158" cy="53.649" r="1.702"/>
+		</g>
+		<g>
+			<path fill="#FFFFFF" stroke="#DDDDDD" stroke-width="0.5" stroke-miterlimit="10" d="M411.972,59.662
+				c0,0.812-0.657,1.469-1.469,1.469h-29.249c-0.812,0-1.47-0.658-1.47-1.469V47.636c0-0.812,0.657-1.469,1.47-1.469h29.249
+				c0.812,0,1.469,0.658,1.469,1.469V59.662z"/>
+			<circle fill="#DDDDDD" stroke="#FFFFFF" stroke-width="0.5" stroke-miterlimit="10" cx="395.878" cy="53.649" r="1.702"/>
+		</g>
+		<g>
+			<path fill="#FFFFFF" stroke="#DDDDDD" stroke-width="0.5" stroke-miterlimit="10" d="M446.94,59.662
+				c0,0.812-0.657,1.469-1.47,1.469h-29.249c-0.812,0-1.47-0.658-1.47-1.469V47.636c0-0.812,0.658-1.469,1.47-1.469h29.249
+				c0.812,0,1.47,0.658,1.47,1.469V59.662z"/>
+			<circle fill="#DDDDDD" stroke="#FFFFFF" stroke-width="0.5" stroke-miterlimit="10" cx="430.847" cy="53.649" r="1.701"/>
+		</g>
+	</g>
+	<g>
+		<g>
+			<path fill="#FFFFFF" stroke="#DDDDDD" stroke-width="0.5" stroke-miterlimit="10" d="M59.688,96.162
+				c0,0.812-0.658,1.469-1.469,1.469H28.97c-0.812,0-1.469-0.658-1.469-1.469V84.136c0-0.812,0.658-1.469,1.469-1.469h29.25
+				c0.812,0,1.469,0.658,1.469,1.469V96.162z"/>
+			<circle fill="#DDDDDD" stroke="#FFFFFF" stroke-width="0.5" stroke-miterlimit="10" cx="43.594" cy="90.149" r="1.702"/>
+		</g>
+		<g>
+			<path fill="#FFFFFF" stroke="#DDDDDD" stroke-width="0.5" stroke-miterlimit="10" d="M94.89,96.162
+				c0,0.812-0.658,1.469-1.469,1.469H64.171c-0.812,0-1.469-0.658-1.469-1.469V84.136c0-0.812,0.657-1.469,1.469-1.469H93.42
+				c0.812,0,1.469,0.658,1.469,1.469V96.162z"/>
+			<circle fill="#DDDDDD" stroke="#FFFFFF" stroke-width="0.5" stroke-miterlimit="10" cx="78.796" cy="90.149" r="1.702"/>
+		</g>
+		<g>
+			<path fill="#FFFFFF" stroke="#DDDDDD" stroke-width="0.5" stroke-miterlimit="10" d="M130.177,96.162
+				c0,0.812-0.657,1.469-1.469,1.469H99.458c-0.812,0-1.469-0.658-1.469-1.469V84.136c0-0.812,0.658-1.469,1.469-1.469h29.249
+				c0.812,0,1.469,0.658,1.469,1.469V96.162z"/>
+			<circle fill="#DDDDDD" stroke="#FFFFFF" stroke-width="0.5" stroke-miterlimit="10" cx="114.083" cy="90.149" r="1.702"/>
+		</g>
+		<g>
+			<path fill="#FFFFFF" stroke="#DDDDDD" stroke-width="0.5" stroke-miterlimit="10" d="M165.375,96.162
+				c0,0.812-0.658,1.469-1.469,1.469h-29.25c-0.812,0-1.469-0.658-1.469-1.469V84.136c0-0.812,0.658-1.469,1.469-1.469h29.25
+				c0.812,0,1.469,0.658,1.469,1.469V96.162z"/>
+			<circle fill="#DDDDDD" stroke="#FFFFFF" stroke-width="0.5" stroke-miterlimit="10" cx="149.282" cy="90.149" r="1.702"/>
+		</g>
+		<g>
+			<path fill="#FFFFFF" stroke="#DDDDDD" stroke-width="0.5" stroke-miterlimit="10" d="M200.344,96.162
+				c0,0.812-0.657,1.469-1.47,1.469h-29.249c-0.812,0-1.469-0.658-1.469-1.469V84.136c0-0.812,0.658-1.469,1.469-1.469h29.249
+				c0.812,0,1.47,0.658,1.47,1.469V96.162z"/>
+			<circle fill="#DDDDDD" stroke="#FFFFFF" stroke-width="0.5" stroke-miterlimit="10" cx="184.25" cy="90.149" r="1.701"/>
+		</g>
+		<g>
+			<path fill="#FFFFFF" stroke="#DDDDDD" stroke-width="0.5" stroke-miterlimit="10" d="M235.596,96.162
+				c0,0.812-0.657,1.469-1.47,1.469h-29.248c-0.812,0-1.469-0.658-1.469-1.469V84.136c0-0.812,0.657-1.469,1.469-1.469h29.248
+				c0.812,0,1.47,0.658,1.47,1.469V96.162z"/>
+			<circle fill="#DDDDDD" stroke="#FFFFFF" stroke-width="0.5" stroke-miterlimit="10" cx="219.502" cy="90.149" r="1.702"/>
+		</g>
+		<g>
+			<path fill="#FFFFFF" stroke="#DDDDDD" stroke-width="0.5" stroke-miterlimit="10" d="M270.798,96.162
+				c0,0.812-0.658,1.469-1.47,1.469h-29.249c-0.812,0-1.469-0.658-1.469-1.469V84.136c0-0.812,0.657-1.469,1.469-1.469h29.249
+				c0.812,0,1.47,0.658,1.47,1.469V96.162z"/>
+			<circle fill="#DDDDDD" stroke="#FFFFFF" stroke-width="0.5" stroke-miterlimit="10" cx="254.704" cy="90.149" r="1.701"/>
+		</g>
+		<g>
+			<path fill="#FFFFFF" stroke="#DDDDDD" stroke-width="0.5" stroke-miterlimit="10" d="M306.085,96.162
+				c0,0.812-0.658,1.469-1.47,1.469h-29.249c-0.812,0-1.469-0.658-1.469-1.469V84.136c0-0.812,0.657-1.469,1.469-1.469h29.249
+				c0.812,0,1.47,0.658,1.47,1.469V96.162z"/>
+			<circle fill="#DDDDDD" stroke="#FFFFFF" stroke-width="0.5" stroke-miterlimit="10" cx="289.991" cy="90.149" r="1.701"/>
+		</g>
+		<g>
+			<path fill="#FFFFFF" stroke="#DDDDDD" stroke-width="0.5" stroke-miterlimit="10" d="M341.283,96.162
+				c0,0.812-0.657,1.469-1.469,1.469h-29.25c-0.812,0-1.47-0.658-1.47-1.469V84.136c0-0.812,0.658-1.469,1.47-1.469h29.25
+				c0.812,0,1.469,0.658,1.469,1.469V96.162z"/>
+			<circle fill="#DDDDDD" stroke="#FFFFFF" stroke-width="0.5" stroke-miterlimit="10" cx="325.189" cy="90.149" r="1.702"/>
+		</g>
+		<g>
+			<path fill="#FFFFFF" stroke="#DDDDDD" stroke-width="0.5" stroke-miterlimit="10" d="M376.252,96.162
+				c0,0.812-0.658,1.469-1.47,1.469h-29.249c-0.812,0-1.47-0.658-1.47-1.469V84.136c0-0.812,0.657-1.469,1.47-1.469h29.249
+				c0.812,0,1.47,0.658,1.47,1.469V96.162z"/>
+			<circle fill="#DDDDDD" stroke="#FFFFFF" stroke-width="0.5" stroke-miterlimit="10" cx="360.158" cy="90.149" r="1.702"/>
+		</g>
+		<g>
+			<path fill="#FFFFFF" stroke="#DDDDDD" stroke-width="0.5" stroke-miterlimit="10" d="M411.972,96.162
+				c0,0.812-0.657,1.469-1.469,1.469h-29.249c-0.812,0-1.47-0.658-1.47-1.469V84.136c0-0.812,0.657-1.469,1.47-1.469h29.249
+				c0.812,0,1.469,0.658,1.469,1.469V96.162z"/>
+			<circle fill="#DDDDDD" stroke="#FFFFFF" stroke-width="0.5" stroke-miterlimit="10" cx="395.878" cy="90.149" r="1.702"/>
+		</g>
+		<g>
+			<path fill="#FFFFFF" stroke="#DDDDDD" stroke-width="0.5" stroke-miterlimit="10" d="M446.94,96.162
+				c0,0.812-0.657,1.469-1.47,1.469h-29.249c-0.812,0-1.47-0.658-1.47-1.469V84.136c0-0.812,0.658-1.469,1.47-1.469h29.249
+				c0.812,0,1.47,0.658,1.47,1.469V96.162z"/>
+			<circle fill="#DDDDDD" stroke="#FFFFFF" stroke-width="0.5" stroke-miterlimit="10" cx="430.847" cy="90.149" r="1.701"/>
+		</g>
+	</g>
+	<g opacity="0.5">
+		<g>
+			<path fill="#FFFFFF" stroke="#DDDDDD" stroke-width="0.5" stroke-miterlimit="10" d="M59.688,77.773
+				c0,0.812-0.658,1.469-1.469,1.469H28.97c-0.812,0-1.469-0.658-1.469-1.469V65.747c0-0.812,0.658-1.469,1.469-1.469h29.25
+				c0.812,0,1.469,0.658,1.469,1.469V77.773z"/>
+			<circle fill="#DDDDDD" stroke="#FFFFFF" stroke-width="0.5" stroke-miterlimit="10" cx="43.594" cy="71.76" r="1.702"/>
+		</g>
+		<g>
+			<path fill="#FFFFFF" stroke="#DDDDDD" stroke-width="0.5" stroke-miterlimit="10" d="M94.89,77.773
+				c0,0.812-0.658,1.469-1.469,1.469H64.171c-0.812,0-1.469-0.658-1.469-1.469V65.747c0-0.812,0.657-1.469,1.469-1.469H93.42
+				c0.812,0,1.469,0.658,1.469,1.469V77.773z"/>
+			<circle fill="#DDDDDD" stroke="#FFFFFF" stroke-width="0.5" stroke-miterlimit="10" cx="78.796" cy="71.76" r="1.702"/>
+		</g>
+		<g>
+			<path fill="#FFFFFF" stroke="#DDDDDD" stroke-width="0.5" stroke-miterlimit="10" d="M130.177,77.773
+				c0,0.812-0.657,1.469-1.469,1.469H99.458c-0.812,0-1.469-0.658-1.469-1.469V65.747c0-0.812,0.658-1.469,1.469-1.469h29.249
+				c0.812,0,1.469,0.658,1.469,1.469V77.773z"/>
+			<circle fill="#DDDDDD" stroke="#FFFFFF" stroke-width="0.5" stroke-miterlimit="10" cx="114.083" cy="71.76" r="1.702"/>
+		</g>
+		<g>
+			<path fill="#FFFFFF" stroke="#DDDDDD" stroke-width="0.5" stroke-miterlimit="10" d="M165.375,77.773
+				c0,0.812-0.658,1.469-1.469,1.469h-29.25c-0.812,0-1.469-0.658-1.469-1.469V65.747c0-0.812,0.658-1.469,1.469-1.469h29.25
+				c0.812,0,1.469,0.658,1.469,1.469V77.773z"/>
+			<circle fill="#DDDDDD" stroke="#FFFFFF" stroke-width="0.5" stroke-miterlimit="10" cx="149.282" cy="71.76" r="1.702"/>
+		</g>
+		<g>
+			<path fill="#FFFFFF" stroke="#DDDDDD" stroke-width="0.5" stroke-miterlimit="10" d="M200.344,77.773
+				c0,0.812-0.657,1.469-1.47,1.469h-29.249c-0.812,0-1.469-0.658-1.469-1.469V65.747c0-0.812,0.658-1.469,1.469-1.469h29.249
+				c0.812,0,1.47,0.658,1.47,1.469V77.773z"/>
+			<circle fill="#DDDDDD" stroke="#FFFFFF" stroke-width="0.5" stroke-miterlimit="10" cx="184.25" cy="71.76" r="1.701"/>
+		</g>
+		<g>
+			<path fill="#FFFFFF" stroke="#DDDDDD" stroke-width="0.5" stroke-miterlimit="10" d="M235.596,77.773
+				c0,0.812-0.657,1.469-1.47,1.469h-29.248c-0.812,0-1.469-0.658-1.469-1.469V65.747c0-0.812,0.657-1.469,1.469-1.469h29.248
+				c0.812,0,1.47,0.658,1.47,1.469V77.773z"/>
+			<circle fill="#DDDDDD" stroke="#FFFFFF" stroke-width="0.5" stroke-miterlimit="10" cx="219.502" cy="71.76" r="1.702"/>
+		</g>
+		<g>
+			<path fill="#FFFFFF" stroke="#DDDDDD" stroke-width="0.5" stroke-miterlimit="10" d="M270.798,77.773
+				c0,0.812-0.658,1.469-1.47,1.469h-29.249c-0.812,0-1.469-0.658-1.469-1.469V65.747c0-0.812,0.657-1.469,1.469-1.469h29.249
+				c0.812,0,1.47,0.658,1.47,1.469V77.773z"/>
+			<circle fill="#DDDDDD" stroke="#FFFFFF" stroke-width="0.5" stroke-miterlimit="10" cx="254.704" cy="71.76" r="1.701"/>
+		</g>
+		<g>
+			<path fill="#FFFFFF" stroke="#DDDDDD" stroke-width="0.5" stroke-miterlimit="10" d="M306.085,77.773
+				c0,0.812-0.658,1.469-1.47,1.469h-29.249c-0.812,0-1.469-0.658-1.469-1.469V65.747c0-0.812,0.657-1.469,1.469-1.469h29.249
+				c0.812,0,1.47,0.658,1.47,1.469V77.773z"/>
+			<circle fill="#DDDDDD" stroke="#FFFFFF" stroke-width="0.5" stroke-miterlimit="10" cx="289.991" cy="71.76" r="1.701"/>
+		</g>
+		<g>
+			<path fill="#FFFFFF" stroke="#DDDDDD" stroke-width="0.5" stroke-miterlimit="10" d="M341.283,77.773
+				c0,0.812-0.657,1.469-1.469,1.469h-29.25c-0.812,0-1.47-0.658-1.47-1.469V65.747c0-0.812,0.658-1.469,1.47-1.469h29.25
+				c0.812,0,1.469,0.658,1.469,1.469V77.773z"/>
+			<circle fill="#DDDDDD" stroke="#FFFFFF" stroke-width="0.5" stroke-miterlimit="10" cx="325.189" cy="71.76" r="1.702"/>
+		</g>
+		<g>
+			<path fill="#FFFFFF" stroke="#DDDDDD" stroke-width="0.5" stroke-miterlimit="10" d="M376.252,77.773
+				c0,0.812-0.658,1.469-1.47,1.469h-29.249c-0.812,0-1.47-0.658-1.47-1.469V65.747c0-0.812,0.657-1.469,1.47-1.469h29.249
+				c0.812,0,1.47,0.658,1.47,1.469V77.773z"/>
+			<circle fill="#DDDDDD" stroke="#FFFFFF" stroke-width="0.5" stroke-miterlimit="10" cx="360.158" cy="71.76" r="1.702"/>
+		</g>
+		<g>
+			<path fill="#FFFFFF" stroke="#DDDDDD" stroke-width="0.5" stroke-miterlimit="10" d="M411.972,77.773
+				c0,0.812-0.657,1.469-1.469,1.469h-29.249c-0.812,0-1.47-0.658-1.47-1.469V65.747c0-0.812,0.657-1.469,1.47-1.469h29.249
+				c0.812,0,1.469,0.658,1.469,1.469V77.773z"/>
+			<circle fill="#DDDDDD" stroke="#FFFFFF" stroke-width="0.5" stroke-miterlimit="10" cx="395.878" cy="71.76" r="1.702"/>
+		</g>
+		<g>
+			<path fill="#FFFFFF" stroke="#DDDDDD" stroke-width="0.5" stroke-miterlimit="10" d="M446.94,77.773
+				c0,0.812-0.657,1.469-1.47,1.469h-29.249c-0.812,0-1.47-0.658-1.47-1.469V65.747c0-0.812,0.658-1.469,1.47-1.469h29.249
+				c0.812,0,1.47,0.658,1.47,1.469V77.773z"/>
+			<circle fill="#DDDDDD" stroke="#FFFFFF" stroke-width="0.5" stroke-miterlimit="10" cx="430.847" cy="71.76" r="1.701"/>
+		</g>
+	</g>
+	<text transform="matrix(1 0 0 1 161.627 76.7612)" fill="#69BE28" font-family="'MyriadPro-Regular'" font-size="14.2682">HDFS (Data Management)</text>
+</g>
 <g id="data_access">
 	<path fill="#69BE28" d="M16.838-146.652h444.053v112.899H16.838V-146.652z"/>
 	<text transform="matrix(1 0 0 1 42.127 -119.249)" fill="#FFFFFF" font-family="'OpenSans'" font-size="14.2682">Data Access</text>
-</g>
-<g id="hdfs">
-	<path fill="#B3E28A" d="M16.838,35.02h444.053v56.926H16.838V35.02z"/>
-	<text transform="matrix(1 0 0 1 161.627 77.7617)" fill="#69BE28" font-family="'MyriadPro-Regular'" font-size="14.2682">HDFS (Data Management)</text>
 </g>
 <g id="yarn">
 	<path fill="#44697D" d="M16.838-26.97h444.053v55.496H16.838V-26.97z"/>
@@ -17,17 +241,16 @@
 </g>
 <g id="security">
 	<text transform="matrix(1 0 0 1 489.2256 -121.6836)" fill="#69BE28" font-family="'MyriadPro-Regular'" font-size="10.6136">Security</text>
-	<path fill="none" stroke="#69BE28" stroke-miterlimit="10" d="M475.027-145.792h95.708V92.138h-95.708V-145.792L475.027-145.792z"
-		/>
+	<path fill="none" stroke="#69BE28" stroke-miterlimit="10" d="M475.027-145.792h95.708V108.5h-95.708V-145.792L475.027-145.792z"/>
 </g>
 <g id="governance_integration">
 	<text transform="matrix(1 0 0 1 -76.9424 -121.6836)" fill="#69BE28" font-family="'MyriadPro-Regular'" font-size="10.6136">Governance</text>
 	<text transform="matrix(1 0 0 1 -76.9424 -108.9463)" fill="#69BE28" font-family="'MyriadPro-Regular'" font-size="10.6136">Integration</text>
-	<path fill="none" stroke="#69BE28" stroke-miterlimit="10" d="M-91-145.792H4.42V92.138H-91V-145.792z"/>
+	<path fill="none" stroke="#69BE28" stroke-miterlimit="10" d="M-91-145.792H4.42V108.5H-91V-145.792z"/>
 </g>
 <g id="operations">
 	<text transform="matrix(1 0 0 1 596.9951 -121.6836)" fill="#69BE28" font-family="'MyriadPro-Regular'" font-size="10.6136">Operations</text>
-	<path fill="none" stroke="#69BE28" stroke-miterlimit="10" d="M582.581-145.792H678V92.138h-95.419V-145.792L582.581-145.792z"/>
+	<path fill="none" stroke="#69BE28" stroke-miterlimit="10" d="M582.581-145.792H678V108.5h-95.419V-145.792L582.581-145.792z"/>
 </g>
 <g id="element_1">
 	<path fill="#FFFFFF" d="M98.217-72.53h-47.28c-1.72,0-2.771,1.145-2.771,2.77v47.567c0,1.72,1.146,2.77,2.771,2.77h12.13
