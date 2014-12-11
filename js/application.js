@@ -242,7 +242,7 @@ $(function() {
 		new ScrollScene({
 		    triggerElement: '#content-wrapper',
 				offset: 2000,
-				duration: 1800
+				duration: 1600
 			})	
 		
 			.setClassToggle("#dot-2", "active") // add class toggle
@@ -279,7 +279,7 @@ $(function() {
 
 		new ScrollScene({
 				triggerElement: '#content-wrapper',
-				offset: 3700,
+				offset: 3500,
 				duration: 900
 			})
 
@@ -289,7 +289,7 @@ $(function() {
 
 		new ScrollScene({
 				triggerElement: '#content-wrapper',
-				offset: 3800,
+				offset: 3600,
 				duration: 1000
 			})
 
@@ -300,7 +300,7 @@ $(function() {
 
 		new ScrollScene({
 		    triggerElement: '#content-wrapper',
-				offset: 3550,
+				offset: 3600,
 				duration: 100
 			})
 
