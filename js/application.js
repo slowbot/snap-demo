@@ -349,12 +349,6 @@ $(function() {
 
 			.addTo(base.controller);
 
-		// Scene 4
-		
-
-
-				
-		
 		// Scene 5
 		new ScrollScene({
 		    	triggerElement: content_wrapper,
@@ -370,10 +364,6 @@ $(function() {
 
 			.addTo(base.controller);
 
-		
-
-
-		
 		new ScrollScene({
 		   triggerElement: content_wrapper,
 				offset: 5550,
