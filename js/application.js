@@ -1,14 +1,32 @@
 var e = {},
-	base = [];
+	base = [],
+	content_wrapper = '#content-wrapper';
 
 $(function() {
 	function addScene(offset, duration, timeline) {
 		new ScrollScene({
-	    	triggerElement: '#content-wrapper',
+	    	triggerElement: content_wrapper,
 			offset: offset,
 			duration: duration
 		})
 		.setTween(timeline)
+		.addTo(base.controller);
+	}
+	function addCaptionScene(offset, duration, caption) {
+		new ScrollScene({
+	    triggerElement: content_wrapper,
+			offset: offset,
+			duration: duration
+		})
+		.setClassToggle("#caption-"+caption, "active") // add class toggle
+		.addTo(base.controller);
+
+		new ScrollScene({
+	    triggerElement: content_wrapper,
+			offset: offset,
+			duration: duration
+		})
+		.setClassToggle("#dot-"+caption, "active") // add class toggle
 		.addTo(base.controller);
 	}
 
@@ -51,16 +69,16 @@ $(function() {
 	
 	base.controller = new ScrollMagic();
 
-		// Pin
-		new ScrollScene({
-	    	triggerElement: '#content-wrapper',
-    		offset: 900,
-    		duration: 6000
-    	})
+	// Pin
+	new ScrollScene({
+    	triggerElement: content_wrapper,
+		offset: 900,
+		duration: 6000
+	})
 
-    	.setPin('#pin')
+	.setPin('#pin')
 
-  		.addTo(base.controller);
+		.addTo(base.controller);
 
   	// Scene 0
 
@@ -265,27 +283,46 @@ $(function() {
   	];
   	var overall_offset = 0;
   	var stories = {};
+  	var caption_stories = {};
+
+  	
 
   	//convert from relative time frames to absolute
   	for(var i in frames) {
-  		var offset_from_last_frame = frames[i].offset,
-  			keyframes = frames[i].keyframes;
+  		var keyframes = frames[i].keyframes,
+  			newCapIndex = frames[i].setCaption;
 
-  		overall_offset += offset_from_last_frame;
-  		//frames[i].offset = overall_offset;
+  		overall_offset += frames[i].offset;
 
   		for(var element in keyframes) {
   			if(!stories[element]) stories[element] = [];
   			stories[element].push({offset: overall_offset, keyframe: keyframes[element]});
   		}
-  	}
+  		if(newCapIndex) {
+  			if(!caption_stories[newCapIndex]) caption_stories[newCapIndex] = {};
+  			caption_stories[newCapIndex].offset = overall_offset;
 
+  			if(newCapIndex > 1) {
+  				caption_stories[newCapIndex-1].duration = overall_offset - caption_stories[newCapIndex-1].offset;
+  			}
+  		}
+  	}
+  	console.log(caption_stories);
+
+  	for(var name in caption_stories) {
+  		var duration = caption_stories[name].duration;
+
+  		if(!duration) duration = 1000;
+
+  		addCaptionScene(caption_stories[name].offset, caption_stories[name].duration, name);
+  	}
  	for(var name in stories) {
- 		var story = stories[name];
-		var frame_start = story[0];
-		var story_start = frame_start.offset;
-		var total_length = story_start;
-		var last_frame_offset = story_start;
+ 		var story = stories[name],
+ 			frame_start = story[0],
+ 			story_start = frame_start.offset,
+ 			total_length = story_start,
+ 			last_frame_offset = story_start;
+
 		t = new TimelineMax();
 		t.set(e[name].element, {snap: frame_start.keyframe});
 
@@ -300,7 +337,7 @@ $(function() {
 
 
 		new ScrollScene({
-		    triggerElement: '#content-wrapper',
+		    triggerElement: content_wrapper,
 				offset: 3600,
 				duration: 100
 			})
@@ -322,7 +359,7 @@ $(function() {
 		
 		// Scene 5
 		new ScrollScene({
-		    	triggerElement: '#content-wrapper',
+		    	triggerElement: content_wrapper,
 				offset: 4550,
 				duration: 500
 			})
@@ -340,7 +377,7 @@ $(function() {
 
 		
 		new ScrollScene({
-		   triggerElement: '#content-wrapper',
+		   triggerElement: content_wrapper,
 				offset: 5550,
 				duration: 500
 			})
