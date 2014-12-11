@@ -191,7 +191,7 @@ $(function() {
   			}	
   		},
   		{
-  			offset: 200,
+  			offset: 200, //4530
   			keyframes: {
   				governance_pointer: {opacity: 0}
   			}	
@@ -209,14 +209,21 @@ $(function() {
   			}	
   		},
   		{
-  			offset: 100,
+  			offset: 100, //5150
   			keyframes: {
   				security: {opacity: 1, tx: 0},
   				security_pointer: {opacity: 1, tx: 0}
   			}	
   		},
   		{
-  			offset: 400,
+  			offset: 100, //5250
+  			keyframes: {
+  				operations: {opacity: 0, tx: 1000},
+  				operations_pointer: {opacity: 0, tx: 1000}
+  			}	
+  		},
+  		{
+  			offset: 300,
   			keyframes: {
   				security_pointer: {opacity: 1}
   			}	
@@ -225,6 +232,25 @@ $(function() {
   			offset: 200,
   			keyframes: {
   				security_pointer: {opacity: 0}
+  			}	
+  		},
+  		{
+  			offset: 500,
+  			keyframes: {
+  				operations: {opacity: 1, tx: 0},
+  				operations_pointer: {opacity: 1, tx: 0}
+  			}	
+  		},
+  		{
+  			offset: 400,
+  			keyframes: {
+  				operations_pointer: {opacity: 1}
+  			}	
+  		},
+  		{
+  			offset: 200,
+  			keyframes: {
+  				operations_pointer: {opacity: 0}
   			}	
   		},
 
@@ -390,56 +416,7 @@ $(function() {
 
 			.addTo(base.controller);
 
-		new ScrollScene({
-		    	triggerElement: '#content-wrapper',
-				offset: 5450,
-				duration: 1200
-			})
-			.setTween(new TimelineMax()
-				.set(e.operations_pointer.element, {
-					snap: {
-						opacity: 0,
-					    tx: 1000
-					}
-				})
-				.to(e.operations_pointer.element, 1, {
-					snap: {
-						opacity: 1,
-						tx: 0
-					},
-					ease: Linear.easeNone
-				})
-				.to(e.operations_pointer.element, 0.2, {
-					snap: {
-						opacity: 0,
-						tx: 0
-					},
-					ease: Linear.easeNone
-				}))
-
-			.addTo(base.controller);
-
-		new ScrollScene({
-		    	triggerElement: '#content-wrapper',
-				offset: 5450,
-				duration: 1000
-			})
-			.setTween(new TimelineMax()
-				.set(e.operations.element, {
-					snap: {
-						opacity: 0,
-					    tx: 1000
-					}
-				})
-				.to(e.operations.element, 1, {
-					snap: {
-						opacity: 1,
-						tx: 0
-					},
-					ease: Linear.easeNone
-				}))
-
-			.addTo(base.controller);
+		
 
 		new ScrollScene({
 		    	triggerElement: '#content-wrapper',
