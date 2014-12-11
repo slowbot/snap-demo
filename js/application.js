@@ -167,7 +167,8 @@ $(function() {
   		{
   			offset: 100,
   			keyframes: {
-  				security: {opacity: 0, tx: 1000}
+  				security: {opacity: 0, tx: 1000},
+  				security_pointer: {opacity: 0, tx: 1000}
 			}
   		},
   		{
@@ -184,15 +185,34 @@ $(function() {
   			}	
   		},
   		{
+  			offset: 400,
+  			keyframes: {
+  				governance_pointer: {opacity: 1}
+  			}	
+  		},
+  		{
   			offset: 200,
   			keyframes: {
   				governance_pointer: {opacity: 0}
   			}	
   		},
   		{
-  			offset: 1000,
+  			offset: 600,
   			keyframes: {
-  				security: {opacity: 1, tx: 0}
+  				security: {opacity: 1, tx: 0},
+  				security_pointer: {opacity: 1, tx: 0}
+  			}	
+  		},
+  		{
+  			offset: 400,
+  			keyframes: {
+  				security_pointer: {opacity: 1}
+  			}	
+  		},
+  		{
+  			offset: 200,
+  			keyframes: {
+  				security_pointer: {opacity: 0}
   			}	
   		},
 
@@ -319,35 +339,7 @@ $(function() {
 			.addTo(base.controller);
 
 		// Scene 4
-		new ScrollScene({
-		    	triggerElement: '#content-wrapper',
-				offset: 3650,
-				duration: 1800
-			})
-
-			.setTween(new TimelineMax()
-				.set(e.security_pointer.element, {
-					snap: {
-						opacity: 0,
-					    tx: 1000
-					}
-				})
-				.to(e.security_pointer.element, 1, {
-					snap: {
-						opacity: 1,
-						tx: 0
-					},
-					ease: Linear.easeNone
-				})
-				.to(e.security_pointer.element, 0.2, {
-					snap: {
-						opacity: 0,
-						tx: 0
-					},
-					ease: Linear.easeNone
-				}))
-
-			.addTo(base.controller);
+		
 
 
 		new ScrollScene({
