@@ -95,7 +95,8 @@ $(function() {
   		{
   			offset: 50,
   			keyframes: {
-  				element_2: {opacity: 0, ty: -50}
+  				element_2: {opacity: 0, ty: -50},
+  				governance_pointer: {tx: -1000, opacity: 0}
   			}	
   		},
   		{
@@ -154,6 +155,23 @@ $(function() {
   				yarn: {scale: 1, ty: 0, opacity: .5},
   				hdfs: {scale: 1, opacity: .5},
   				data_access: {opacity: 1, tx: 0}
+  			}	
+  		},
+  		{
+  			offset: 550,
+  			keyframes: {
+  				governance_pointer: {
+					tx: 0,
+					opacity: 1,
+				}
+  			}	
+  		},
+  		{
+  			offset: 200,
+  			keyframes: {
+  				governance_pointer: {
+					opacity: 0,
+				}
   			}	
   		},
 
@@ -238,38 +256,7 @@ $(function() {
 
 		
 
-		// Scene 3
-		new ScrollScene({
-		    triggerElement: '#content-wrapper',
-				offset: 2950,
-				duration: 1200
-			})
-			.setTween(new TimelineMax()
-				.set(e.governance_pointer.element, {
-					snap: {
-						tx: -1000,
-						opacity: 0
-					}
-				})
-				.to(e.governance_pointer.element, 1, {
-					snap: {
-						tx: 0,
-						opacity: 1,
-					},
-					ease: Linear.easeNone
-				})
-				.to(e.governance_pointer.element, 0.2, {
-					snap: {
-						tx: 0,
-						opacity: 0,
-					},
-					ease: Linear.easeNone
-				})
-
-			)
-
-
-			.addTo(base.controller);
+		// Scene 3 
 
 
 		new ScrollScene({
