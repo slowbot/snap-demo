@@ -87,14 +87,12 @@ $(function() {
   			offset: 500,
   			keyframes: {
   				yarn: {scale: 2, ty: -1000, opacity: 0},
-  			}
+  			},
+			setCaption: 1
+
   		},
   		{
-  			offset: 400,
-  			setCaption: 1
-  		},
-  		{
-  			offset: 500,
+  			offset: 900,
   			keyframes: {
   				yarn: {scale: 2, ty: -70, opacity: 1},
   				hdfs: {scale: 2, opacity: 1},
@@ -182,7 +180,8 @@ $(function() {
   				yarn: {scale: 1, ty: 0, opacity: .5},
   				hdfs: {scale: 1, opacity: .5},
   				data_access: {opacity: 1, tx: 0}
-  			}	
+  			},
+			setCaption: 3	
   		},
   		{
   			offset: 150,
@@ -195,8 +194,7 @@ $(function() {
   			keyframes: {
   				security: {opacity: 0, tx: 1000},
   				security_pointer: {opacity: 0, tx: 1000}
-			},
-			setCaption: 3
+			}
   		},
   		{
   			offset: 100,
@@ -215,20 +213,20 @@ $(function() {
   			offset: 400,
   			keyframes: {
   				governance_pointer: {opacity: 1}
-  			}	
+  			}		
   		},
   		{
   			offset: 200, //4530
   			keyframes: {
   				governance_pointer: {opacity: 0}
-  			}	
+  			},
+  			setCaption: 4	
   		},
 		{
   			offset: 300,
   			keyframes: {
   				governance_integration: {opacity: 1}
-  			},
-  			setCaption: 4	
+  			}
   		},
   		{
   			offset: 200,
@@ -243,21 +241,21 @@ $(function() {
   				security_pointer: {opacity: 1, tx: 0},
   				operations: {opacity: 0, tx: 1000},
   				operations_pointer: {opacity: 0, tx: 1000}
-  			}	
+  			}		
   		},
   		{
   			offset: 400,
   			keyframes: {
   				security_pointer: {opacity: 1}
-  			},
-  			setCaption: 5	
+  			}
   		},
   		{
   			offset: 200,
   			keyframes: {
   				security_pointer: {opacity: 0},
   				security: {opacity: 1}
-  			}	
+  			},
+  			setCaption: 5	
   		},
   		{
   			offset: 500,
