@@ -1,9 +1,21 @@
-var e = {};
+var e = {},
+	base = [];
 
 $(function() {
+	function addScene(offset, duration, timeline) {
+		new ScrollScene({
+	    	triggerElement: '#content-wrapper',
+			offset: offset,
+			duration: duration
+		})
+		.setTween(timeline)
+		.addTo(base.controller);
+	}
+
   var s = Snap("#svg");
   Snap.load("svg-canvas2.svg", function(f) {
-    var element_names = [
+    var t,
+    	element_names = [
 		'data_access',
 		'hdfs',
 		'yarn',
@@ -36,7 +48,7 @@ $(function() {
 
 	//s.append(f.select('#Layer_1'));
 	
-	var base = [];
+	
 	base.controller = new ScrollMagic();
 
 		// Pin
@@ -51,61 +63,137 @@ $(function() {
   		.addTo(base.controller);
 
   	// Scene 0
-  	new ScrollScene({
-	    	triggerElement: '#content-wrapper',
-				offset: 500,
-				duration: 1800
-			})
-			
-			.setTween(new TimelineMax()
-				.set(e.yarn.element, {
-					snap: {
-					  scale: 2,
-					  ty: -1000,
-					  opacity: 0
-					}
-				})
-				.to(e.yarn.element, 1, {
-					snap: {
-						scale: 2,
-					  ty: -70,
-					  opacity: 1
-					}
-				})
-				.to(e.yarn.element, 1, {
-					snap: {
-					  scale: 1,
-					  ty: 0,
-					  opacity: .5
-					}
-				})
-			)
 
-			.addTo(base.controller);
+  	var frames = [
+  		{
+  			offset: 500,
+  			keyframes: {
+  				yarn: {scale: 2, ty: -1000, opacity: 0},
+  			}
+  		},
+  		{
+  			offset: 900,
+  			keyframes: {
+  				yarn: {scale: 2, ty: -70, opacity: 1},
+  				hdfs: {scale: 2, opacity: 1},
+  				data_access: {opacity: 0, tx: -2000}
+  			}
+  		},
+  		{
+  			offset: 900,
+  			keyframes: {
+  				yarn: {scale: 1, ty: 0, opacity: .5},
+  				hdfs: {scale: 1, opacity: .5}
+  			}	
+  		},
+  		{
+  			offset: 400,
+  			keyframes: {
+  				element_1: {opacity: 0, ty: -50}
+  			}	
+  		},
+  		{
+  			offset: 50,
+  			keyframes: {
+  				element_2: {opacity: 0, ty: -50}
+  			}	
+  		},
+  		{
+  			offset: 50,
+  			keyframes: {
+  				element_3: {opacity: 0, ty: -50}
+  			}	
+  		},
+  		{
+  			offset: 50,
+  			keyframes: {
+  				element_4: {opacity: 0, ty: -50}
+  			}	
+  		},
+  		{
+  			offset: 50,
+  			keyframes: {
+  				element_5: {opacity: 0, ty: -50},
+  				element_1: {opacity: 1, ty: 0}
+  			}	
+  		},
+  		{
+  			offset: 50,
+  			keyframes: {
+  				element_6: {opacity: 0, ty: -50},
+  				element_2: {opacity: 1, ty: 0}
+  			}	
+  		},
+  		{
+  			offset: 50,
+  			keyframes: {
+  				element_3: {opacity: 1, ty: 0}
+  			}	
+  		},
+  		{
+  			offset: 50,
+  			keyframes: {
+  				element_4: {opacity: 1, ty: 0}
+  			}	
+  		},
+  		{
+  			offset: 50,
+  			keyframes: {
+  				element_5: {opacity: 1, ty: 0}
+  			}	
+  		},
+  		{
+  			offset: 50,
+  			keyframes: {
+  				element_6: {opacity: 1, ty: 0}
+  			}	
+  		},
+  		{
+  			offset: 50,
+  			keyframes: {
+  				yarn: {scale: 1, ty: 0, opacity: .5},
+  				hdfs: {scale: 1, opacity: .5},
+  				data_access: {opacity: 1, tx: 0}
+  			}	
+  		},
+
+  	];
+  	var overall_offset = 0;
+  	var stories = {};
+
+  	//convert from relative time frames to absolute
+  	for(var i in frames) {
+  		var offset_from_last_frame = frames[i].offset,
+  			keyframes = frames[i].keyframes;
+
+  		overall_offset += offset_from_last_frame;
+  		//frames[i].offset = overall_offset;
+
+  		for(var element in keyframes) {
+  			if(!stories[element]) stories[element] = [];
+  			stories[element].push({offset: overall_offset, keyframe: keyframes[element]});
+  		}
+  	}
+
+ 	for(var name in stories) {
+ 		var story = stories[name];
+		var frame_start = story[0];
+		var story_start = frame_start.offset;
+		var total_length = story_start;
+		var last_frame_offset = story_start;
+		t = new TimelineMax();
+		t.set(e[name].element, {snap: frame_start.keyframe});
+
+  		for(var i = 1; i < story.length; i++) {
+  			var frame = story[i];
+  			total_length += frame.offset;
+			t.to(e[name].element, frame.offset - last_frame_offset, {snap: frame.keyframe});
+  			last_frame_offset = frame.offset;	
+  		}
+		addScene(story_start, last_frame_offset - story_start, t);
+  	}	 
 
   	// Scene 1
-  	new ScrollScene({
-	    	triggerElement: '#content-wrapper',
-				offset: 1400,
-				duration: 900
-			})
-			
-			.setTween(new TimelineMax()
-				.set(e.hdfs.element, {
-					snap: {
-					  scale: 2,
-					  opacity: 1
-					}
-				})
-				.to(e.hdfs.element, 1, {
-					snap: {
-					  scale: 1,
-					  opacity: .5
-					}
-			}))
-
-			.addTo(base.controller);
-
 		new ScrollScene({
 				triggerElement: '#content-wrapper',
 				duration: 2000
@@ -125,28 +213,6 @@ $(function() {
 
 			.addTo(base.controller);	
 
-		// Scene 2
-		new ScrollScene({
-	   	 triggerElement: '#content-wrapper',
-				offset: 1600,
-				duration: 1600
-			})
-
-		.setTween(new TimelineMax()
-			.set(e.data_access.element, {
-				snap: {
-					opacity: 0,
-				    tx: -2000
-				}
-			})
-			.to(e.data_access.element, 1, {
-				snap: {
-					opacity: 1,
-					tx: 0
-				}
-			}))
-
-			.addTo(base.controller);
 
 		new ScrollScene({
 			triggerElement: '#content-wrapper',
@@ -168,134 +234,9 @@ $(function() {
 
 			.addTo(base.controller);
 
-		new ScrollScene({
-		    	triggerElement: '#content-wrapper',
-				offset: 2900,
-				duration: 200
-			})
-			.setTween(new TimelineMax()
-				.set(e.element_1.element, {
-					snap: {
-					    opacity: 0,
-					    ty: -50
-					}
-				})
-				.to(e.element_1.element, 1, {
-					snap: {
-					  opacity: 1,
-					  ty: 0
-					}
-				}))
+		
 
-			.addTo(base.controller);
-
-		new ScrollScene({
-		    	triggerElement: '#content-wrapper',
-				offset: 2950,
-				duration: 200
-			})
-			.setTween(new TimelineMax()
-				.set(e.element_2.element, {
-					snap: {
-					    opacity: 0,
-					    ty: -50
-					}
-				})
-				.to(e.element_2.element, 1, {
-					snap: {
-					  opacity: 1,
-					  ty: 0
-					}
-				}))
-
-			.addTo(base.controller);
-
-		new ScrollScene({
-		    triggerElement: '#content-wrapper',
-				offset: 3000,
-				duration: 200
-			})
-
-			.setTween(new TimelineMax()
-				.set(e.element_3.element, {
-					snap: {
-					   opacity: 0,
-					   ty: -50
-					}
-				})
-				.to(e.element_3.element, 1, {
-					snap: {
-					  opacity: 1,
-					  ty: 0
-					}
-				}))
-
-			.addTo(base.controller);
-
-		new ScrollScene({
-		    triggerElement: '#content-wrapper',
-				offset: 3150,
-				duration: 200
-			})
-
-			.setTween(new TimelineMax()
-				.set(e.element_4.element, {
-					snap: {
-					   opacity: 0,
-					   ty: -50
-					}
-				})
-				.to(e.element_4.element, 1, {
-					snap: {
-					  opacity: 1,
-					  ty: 0
-					}
-				}))
-
-			.addTo(base.controller);
-
-		new ScrollScene({
-		    	triggerElement: '#content-wrapper',
-				offset: 3200,
-				duration: 200
-			})
-
-			.setTween(new TimelineMax()
-				.set(e.element_5.element, {
-					snap: {
-					   opacity: 0,
-					   ty: -50
-					}
-				})
-				.to(e.element_5.element, 1, {
-					snap: {
-					  opacity: 1,
-					  ty: 0
-					}
-				}))
-
-			.addTo(base.controller);
-
-		new ScrollScene({
-		    	triggerElement: '#content-wrapper',
-				offset: 3250,
-				duration: 200
-			})
-			.setTween(new TimelineMax()
-				.set(e.element_6.element, {
-					snap: {
-					   opacity: 0,
-					   ty: -50
-					}
-				})
-				.to(e.element_6.element, 1, {
-					snap: {
-					  opacity: 1,
-					  ty: 0
-					}
-				}))
-
-			.addTo(base.controller);
+		
 
 		// Scene 3
 		new ScrollScene({
