@@ -196,8 +196,20 @@ $(function() {
   				governance_pointer: {opacity: 0}
   			}	
   		},
+		{
+  			offset: 300,
+  			keyframes: {
+  				governance_integration: {opacity: 1}
+  			}	
+  		},
   		{
-  			offset: 600,
+  			offset: 200,
+  			keyframes: {
+  				governance_integration: {opacity: .25}
+  			}	
+  		},
+  		{
+  			offset: 100,
   			keyframes: {
   				security: {opacity: 1, tx: 0},
   				security_pointer: {opacity: 1, tx: 0}
@@ -342,25 +354,6 @@ $(function() {
 		
 
 
-		new ScrollScene({
-		    triggerElement: '#content-wrapper',
-				offset: 4850,
-				duration: 200
-			})
-			.setTween(new TimelineMax()
-				.set(e.governance_integration.element, {
-					snap: {
-						opacity: 1
-					}
-				})
-				.to(e.governance_integration.element, 1, {
-					snap: {
-						opacity: .25
-					},
-					ease: Linear.easeNone
-				}))
-
-			.addTo(base.controller);
 				
 		new ScrollScene({
 		    triggerElement: '#content-wrapper',
