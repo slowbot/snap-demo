@@ -159,7 +159,25 @@ $(function() {
   			}	
   		},
   		{
-  			offset: 550,
+  			offset: 150,
+  			keyframes: {
+  				data_access: {opacity: 1}
+			}
+  		},
+  		{
+  			offset: 100,
+  			keyframes: {
+  				security: {opacity: 0, tx: 1000}
+			}
+  		},
+  		{
+  			offset: 100,
+  			keyframes: {
+  				data_access: {opacity: .25}
+			}
+  		},
+  		{
+  			offset: 200,
   			keyframes: {
   				governance_pointer: {tx: 0, opacity: 1},
   				governance_integration: {opacity: 1, tx: 0}
@@ -169,6 +187,12 @@ $(function() {
   			offset: 200,
   			keyframes: {
   				governance_pointer: {opacity: 0}
+  			}	
+  		},
+  		{
+  			offset: 1000,
+  			keyframes: {
+  				security: {opacity: 1, tx: 0}
   			}	
   		},
 
@@ -257,26 +281,7 @@ $(function() {
 
 
 
-		new ScrollScene({
-	   	 triggerElement: '#content-wrapper',
-				offset: 3550,
-				duration: 200
-			})
-
-		.setTween(new TimelineMax()
-			.set(e.data_access.element, {
-				snap: {
-					opacity: 1
-				}
-			})
-			.to(e.data_access.element, 1, {
-				snap: {
-					opacity: .25
-				}
-			}))
-
-			.addTo(base.controller);
-
+		
 		new ScrollScene({
 				triggerElement: '#content-wrapper',
 				offset: 3500,
@@ -344,28 +349,6 @@ $(function() {
 
 			.addTo(base.controller);
 
-		new ScrollScene({
-		    	triggerElement: '#content-wrapper',
-				offset: 3650,
-				duration: 1500
-			})
-
-			.setTween(new TimelineMax()
-				.set(e.security.element, {
-					snap: {
-						opacity: 0,
-					    tx: 1000
-					}
-				})
-				.to(e.security.element, 1, {
-					snap: {
-						opacity: 1,
-						tx: 0
-					},
-					ease: Linear.easeNone
-				}))
-
-			.addTo(base.controller);
 
 		new ScrollScene({
 		    triggerElement: '#content-wrapper',
