@@ -83,6 +83,8 @@ $(function() {
 	}
 
   var s = Snap("#svg");
+  var g = s.group();
+
   Snap.load("svg-canvas2.svg", function(f) {
     var t,
     	element_names = [
@@ -112,7 +114,7 @@ $(function() {
 			element: element,
 			matrix: matrix
 		}; 
-		s.append(element);
+		g.append(element);
 	}
 	
 	
@@ -130,9 +132,24 @@ $(function() {
   	processFrames(anim_frames);	 
 
 
+
 	new ScrollScene({
 	    triggerElement: content_wrapper,
-			offset: 3600,
+			offset: 3400,
+			duration: 300
+		})
+
+		.setTween(new TimelineMax()
+			.set(g, {snap: {scale: 1, ty: 0}})
+			.to(g, 1, {snap: {scale: 0.85, ty: 10}})
+			)
+		
+
+		.addTo(base.controller);
+
+	new ScrollScene({
+	    triggerElement: content_wrapper,
+			offset: 3800,
 			duration: 100
 		})
 
@@ -147,7 +164,7 @@ $(function() {
 	// Scene 5
 	new ScrollScene({
 	    	triggerElement: content_wrapper,
-			offset: 4550,
+			offset: 4750,
 			duration: 500
 		})
 		.setTween(TweenMax.fromTo(".scrollContent", 0.5, 
@@ -160,7 +177,7 @@ $(function() {
 
 	new ScrollScene({
 	   triggerElement: content_wrapper,
-			offset: 5550,
+			offset: 5750,
 			duration: 500
 		})
 		.setTween(TweenMax.fromTo(".scrollContent", 0.5, 

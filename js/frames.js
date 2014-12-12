@@ -2,7 +2,7 @@ var anim_frames = [
 	{
 		offset: 500,
 		keyframes: {
-			yarn: {scale: 2, ty: -1000, opacity: 0},
+			yarn: {ty: -1000, opacity: 0},
 		},
 	setCaption: 1
 
@@ -10,9 +10,8 @@ var anim_frames = [
 	{
 		offset: 900,
 		keyframes: {
-			yarn: {scale: 2, ty: -70, opacity: 1},
-			hdfs: {scale: 2, opacity: 1},
-			data_access: {opacity: 0, tx: -2000}
+			yarn: {ty: 0, opacity: 1},
+			hdfs: {opacity: 1}
 		}
 	},
 	{
@@ -22,8 +21,8 @@ var anim_frames = [
 	{
 		offset: 300,
 		keyframes: {
-			yarn: {scale: 1, ty: 0, opacity: .5},
-			hdfs: {scale: 1, opacity: .5}
+			yarn: {ty: 0, opacity: .5},
+			hdfs: {opacity: .5}
 		}	
 	},
 	{
@@ -69,7 +68,8 @@ var anim_frames = [
 	{
 		offset: 50,
 		keyframes: {
-			element_3: {opacity: 1, ty: 0}
+			element_3: {opacity: 1, ty: 0},
+			data_access: {opacity: 0}
 		}	
 	},
 	{
@@ -95,9 +95,8 @@ var anim_frames = [
 		keyframes: {
 			yarn: {scale: 1, ty: 0, opacity: .5},
 			hdfs: {scale: 1, opacity: .5},
-			data_access: {opacity: 1, tx: 0}
-		},
-	setCaption: 3	
+			data_access: {opacity: 1}
+		}	
 	},
 	{
 		offset: 150,
@@ -110,13 +109,21 @@ var anim_frames = [
 		keyframes: {
 			security: {opacity: 0, tx: 1000},
 			security_pointer: {opacity: 0, tx: 1000}
-	}
+	},
+	setCaption: 3
 	},
 	{
 		offset: 100,
 		keyframes: {
 			data_access: {opacity: .25}
-	}
+		}
+	},
+	{
+		offset: 200,
+		keyframes: {
+			governance_pointer: {tx: -1000, opacity: 0},
+			governance_integration: {opacity: 0, tx: -1000}
+		}	
 	},
 	{
 		offset: 200,
