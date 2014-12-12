@@ -135,7 +135,7 @@ $(function() {
 
 	new ScrollScene({
 	    triggerElement: content_wrapper,
-			offset: 3400,
+			offset: 3100,
 			duration: 300
 		})
 
@@ -149,7 +149,7 @@ $(function() {
 
 	new ScrollScene({
 	    triggerElement: content_wrapper,
-			offset: 3800,
+			offset: 3500,
 			duration: 100
 		})
 
@@ -164,7 +164,7 @@ $(function() {
 	// Scene 5
 	new ScrollScene({
 	    	triggerElement: content_wrapper,
-			offset: 4750,
+			offset: 4450,
 			duration: 500
 		})
 		.setTween(TweenMax.fromTo(".scrollContent", 0.5, 
@@ -177,7 +177,7 @@ $(function() {
 
 	new ScrollScene({
 	   triggerElement: content_wrapper,
-			offset: 5750,
+			offset: 5450,
 			duration: 500
 		})
 		.setTween(TweenMax.fromTo(".scrollContent", 0.5, 

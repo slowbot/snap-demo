@@ -26,7 +26,7 @@ var anim_frames = [
 		}	
 	},
 	{
-		offset: 400,
+		offset: 100,
 		keyframes: {
 			element_1: {opacity: 0, ty: -50}
 		}	
