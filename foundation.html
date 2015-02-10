@@ -1,0 +1,299 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Use title if it's in the page YAML frontmatter -->
+    <title>Mister Machine Patterns</title>
+    <link href="/stylesheets/style.css" rel="stylesheet" type="text/css" />
+    <script src="/javascripts/all.js" type="text/javascript"></script>
+    <script src="//use.typekit.net/wrn0dva.js"></script>
+  </head>
+  
+  <body class="foundation">
+    <div class="off-canvas-wrap" data-offcanvas>
+      <div class="inner-wrap">
+        <nav class="top-left">
+    <a class="left-off-canvas-toggle hollow" href="#"><span class="icon-menu"></span></a>
+  </nav>
+
+
+      
+  <aside class="left-off-canvas-menu">
+    <ul class="off-canvas-list">
+      <li><label>Patterns</label></li>
+      <li><a href="/">Styles</a></li>
+      <li><a href="components.html">Components</a></li>
+      <li><a href="foundation.html">Foundation</a></li>
+      <li><a href="animation.html">Animation</a></li>
+      <li><a href="scrolling.html">Scrolling</a></li>
+<!--           <li><a href="wordpress.html">WordPress</a></li> -->
+      <li><a href="specimen.html">Type Specimen</a></li>
+      <li class="rhythm-up"><label>Prototypes</label></li>
+      <li><a href="ng-test.html">Angular Test</a></li>
+      <li><a href="ng-calculator.html">Angular Calculator</a></li>
+      <li><a href="geolocation.html">Geolocation</a></li>
+    </ul>
+  </aside>  
+
+
+      <div class="row">
+  <div class="medium-9 medium-centered columns">
+
+    <section class="pattern-section">
+      <header class="pattern-header">
+        <h4 class="pattern-title">Pagination</h4>
+      </header>
+
+      
+  <div class="pagination-centered">
+    <ul class="pagination">
+      <li class="arrow unavailable"><a href="">&laquo;</a></li>
+      <li class="current"><a href="">1</a></li>
+      <li><a href="">2</a></li>
+      <li><a href="">3</a></li>
+      <li><a href="">4</a></li>
+      <li class="unavailable"><a href="">&hellip;</a></li>
+      <li><a href="">12</a></li>
+      <li><a href="">13</a></li>
+      <li class="arrow"><a href="">&raquo;</a></li>
+    </ul>
+  </div>
+
+      <div class="code">
+        <xmp class="prettyprint lang-html sunburst">
+         
+  <div class="pagination-centered">
+    <ul class="pagination">
+      <li class="arrow unavailable"><a href="">&laquo;</a></li>
+      <li class="current"><a href="">1</a></li>
+      <li><a href="">2</a></li>
+      <li><a href="">3</a></li>
+      <li><a href="">4</a></li>
+      <li class="unavailable"><a href="">&hellip;</a></li>
+      <li><a href="">12</a></li>
+      <li><a href="">13</a></li>
+      <li class="arrow"><a href="">&raquo;</a></li>
+    </ul>
+  </div>
+        </xmp>
+      </div>
+    </section>
+
+    <section class="pattern-section">
+      <header class="pattern-header">
+        <h4 class="pattern-title">Messages</h4>
+      </header>
+
+        
+  <div data-alert class="alert-box success radius">
+    This is a success alert with a radius.
+    <a href="#" class="close">&times;</a>
+  </div>
+
+  <div data-alert class="alert-box warning round">
+    This is a warning alert that is rounded.
+    <a href="#" class="close">&times;</a>
+  </div>
+
+  <div data-alert class="alert-box info radius">
+    This is an info alert with a radius.
+    <a href="#" class="close">&times;</a>
+  </div>
+
+  <div data-alert class="alert-box alert round">
+    This is an alert - alert that is rounded.
+    <a href="#" class="close">&times;</a>
+  </div>
+
+  <div data-alert class="alert-box secondary">
+    This is a secondary alert.
+    <a href="#" class="close">&times;</a>
+  </div>
+
+      <div class="code">
+        <xmp class="prettyprint lang-html sunburst">
+           
+  <div data-alert class="alert-box success radius">
+    This is a success alert with a radius.
+    <a href="#" class="close">&times;</a>
+  </div>
+
+  <div data-alert class="alert-box warning round">
+    This is a warning alert that is rounded.
+    <a href="#" class="close">&times;</a>
+  </div>
+
+  <div data-alert class="alert-box info radius">
+    This is an info alert with a radius.
+    <a href="#" class="close">&times;</a>
+  </div>
+
+  <div data-alert class="alert-box alert round">
+    This is an alert - alert that is rounded.
+    <a href="#" class="close">&times;</a>
+  </div>
+
+  <div data-alert class="alert-box secondary">
+    This is a secondary alert.
+    <a href="#" class="close">&times;</a>
+  </div>
+        </xmp>
+      </div>
+    </section>
+
+    <section class="pattern-section">
+      <header class="pattern-header">
+        <h4 class="pattern-title">Panel</h4>
+      </header>
+
+        
+  <div class="panel callout radius">
+    <h5>This is a callout panel.</h5>
+    <p>It's a little ostentatious, but useful for important content.</p>
+  </div>
+
+      <div class="code">
+        <xmp class="prettyprint lang-html sunburst">
+           
+  <div class="panel callout radius">
+    <h5>This is a callout panel.</h5>
+    <p>It's a little ostentatious, but useful for important content.</p>
+  </div>
+        </xmp>
+      </div>
+    </section>
+
+    <section class="pattern-section">
+      <header class="pattern-header">
+        <h4 class="pattern-title">Video</h4>
+      </header>
+
+        
+  <div class="flex-video widescreen vimeo">
+    <iframe src="http://player.vimeo.com/video/60122989" width="400" height="225" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+  </div>
+
+      <div class="code">
+        <xmp class="prettyprint lang-html sunburst">
+           
+  <div class="flex-video widescreen vimeo">
+    <iframe src="http://player.vimeo.com/video/60122989" width="400" height="225" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+  </div>
+        </xmp>
+      </div>
+    </section>
+
+    <section class="pattern-section">
+      <header class="pattern-header">
+        <h4 class="pattern-title">Modal</h4>
+      </header>
+
+        
+  <a href="#" data-reveal-id="myModal">Click Me For A Modal</a>
+
+  <div id="myModal" class="reveal-modal" data-reveal>
+    <h2>Awesome. I have it.</h2>
+    <p class="lead">Your couch.  It is mine.</p>
+    <p>I'm a cool paragraph that lives inside of an even cooler modal. Wins!</p>
+    <a class="close-reveal-modal">&#215;</a>
+  </div>
+
+      <div class="code">
+        <xmp class="prettyprint lang-html sunburst">
+           
+  <a href="#" data-reveal-id="myModal">Click Me For A Modal</a>
+
+  <div id="myModal" class="reveal-modal" data-reveal>
+    <h2>Awesome. I have it.</h2>
+    <p class="lead">Your couch.  It is mine.</p>
+    <p>I'm a cool paragraph that lives inside of an even cooler modal. Wins!</p>
+    <a class="close-reveal-modal">&#215;</a>
+  </div>
+        </xmp>
+      </div>
+    </section>
+
+    <section class="pattern-section">
+      <header class="pattern-header">
+        <h4 class="pattern-title">Dropdowns</h4>
+      </header>
+
+        
+  <button href="#" data-dropdown="drop1" aria-controls="drop1" aria-expanded="false" class="button dropdown">Dropdown Button</button><br>
+  <ul id="drop1" data-dropdown-content class="f-dropdown" aria-hidden="true" tabindex="-1">
+    <li><a href="#">This is a link</a></li>
+    <li><a href="#">This is another</a></li>
+    <li><a href="#">Yet another</a></li>
+  </ul>
+
+      <div class="code">
+        <xmp class="prettyprint lang-html sunburst">
+           
+  <button href="#" data-dropdown="drop1" aria-controls="drop1" aria-expanded="false" class="button dropdown">Dropdown Button</button><br>
+  <ul id="drop1" data-dropdown-content class="f-dropdown" aria-hidden="true" tabindex="-1">
+    <li><a href="#">This is a link</a></li>
+    <li><a href="#">This is another</a></li>
+    <li><a href="#">Yet another</a></li>
+  </ul>
+        </xmp>
+      </div>
+    </section>
+
+    <section class="pattern-section">
+      <header class="pattern-header">
+        <h4 class="pattern-title">Button Groups</h4>
+      </header>
+
+      
+    <ul class="button-group round">
+      <li><a href="#" class="[tiny small large] button [alert success secondary] [disabled]">Button 1</a></li>
+      <li><a href="#" class="[tiny small large] button [alert success secondary] [disabled]">Button 2</a></li>
+      <li><a href="#" class="[tiny small large] button [alert success secondary] [disabled]">Button 3</a></li>
+    </ul>
+
+      <div class="code">
+        <xmp class="prettyprint lang-html sunburst">
+         
+    <ul class="button-group round">
+      <li><a href="#" class="[tiny small large] button [alert success secondary] [disabled]">Button 1</a></li>
+      <li><a href="#" class="[tiny small large] button [alert success secondary] [disabled]">Button 2</a></li>
+      <li><a href="#" class="[tiny small large] button [alert success secondary] [disabled]">Button 3</a></li>
+    </ul>
+        </xmp>
+      </div>
+    </section>
+
+    <section class="pattern-section">
+      <header class="pattern-header">
+        <h4 class="pattern-title">Label</h4>
+      </header>
+
+        
+  <span class="alert radius label">Advanced Label</span>
+
+      <div class="code">
+        <xmp class="prettyprint lang-html sunburst">
+           
+  <span class="alert radius label">Advanced Label</span>
+        </xmp>
+      </div>
+    </section>
+  </div>
+
+<!--   <div class="medium-3 columns">
+    <ul class="side-nav no-padding bg-white radius rhythm-up">
+      <li><a href="#">Pagination</a></li>
+      <li><a href="#">Messages</a></li>
+      <li><a href="#">Panels</a></li>
+      <li><a href="#">Video</a></li>
+    </ul>
+  </div> -->
+</div>
+
+
+      </div>
+    </div>
+  </body>
+
+</html>

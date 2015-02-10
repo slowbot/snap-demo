@@ -1,0 +1,101 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Use title if it's in the page YAML frontmatter -->
+    <title>Mister Machine Patterns</title>
+    <link href="/stylesheets/style.css" rel="stylesheet" type="text/css" />
+    <script src="/javascripts/all.js" type="text/javascript"></script>
+    <script src="//use.typekit.net/wrn0dva.js"></script>
+  </head>
+  
+  <body class="bower_components bower_components_google-code-prettify bower_components_google-code-prettify_README">
+    <div class="off-canvas-wrap" data-offcanvas>
+      <div class="inner-wrap">
+        <nav class="top-left">
+    <a class="left-off-canvas-toggle hollow" href="#"><span class="icon-menu"></span></a>
+  </nav>
+
+
+      
+  <aside class="left-off-canvas-menu">
+    <ul class="off-canvas-list">
+      <li><label>Patterns</label></li>
+      <li><a href="/">Styles</a></li>
+      <li><a href="components.html">Components</a></li>
+      <li><a href="foundation.html">Foundation</a></li>
+      <li><a href="animation.html">Animation</a></li>
+      <li><a href="scrolling.html">Scrolling</a></li>
+<!--           <li><a href="wordpress.html">WordPress</a></li> -->
+      <li><a href="specimen.html">Type Specimen</a></li>
+      <li class="rhythm-up"><label>Prototypes</label></li>
+      <li><a href="ng-test.html">Angular Test</a></li>
+      <li><a href="ng-calculator.html">Angular Calculator</a></li>
+      <li><a href="geolocation.html">Geolocation</a></li>
+    </ul>
+  </aside>  
+
+
+      <h1 id="google-code-prettify">Google Code Prettify</h1>
+
+<p>Direct port of svn into git from http://google-code-prettify.googlecode.com/svn/trunk/</p>
+
+<h2 id="install">Install</h2>
+
+<p>via <a href="http://twitter.github.com/bower/">Bower</a></p>
+
+<pre><code>bower install google-code-prettify
+</code></pre>
+
+<p>or <a href="http://yeoman.io/">Yeoman</a></p>
+
+<pre><code>yeoman install google-code-prettify
+</code></pre>
+
+<h2 id="usage">Usage</h2>
+
+<p>The prettify script is AMD compatible and can be used modularly. Here is an example of it in an AMD module:</p>
+
+<p><code>javascript
+define(['jquery', 'prettify'], function($, prettify){
+	var code = null;
+	$('pre').addClass('prettyprint').each(function(idx, el){
+			code = el.firstChild;
+			code.innerHTML = prettify.prettyPrintOne(code.innerHTML);
+		})
+	);
+});
+</code></p>
+
+<p>This version of google-code-prettify defines an anonymous module, which is more flexible.  To allow your AMD loader to find google-code-prettify with a more convenient name, map a path to it as follows:</p>
+
+<p>```js
+// using RequireJS
+require.config({
+	prettify: 'bower_components/google-code-prettify/prettify'
+});</p>
+
+<p>// using curl.js
+curl.config({
+	prettify: 'bower_components/google-code-prettify/prettify'
+});
+```</p>
+
+<p>Or it may just be used in a global context like the following:</p>
+
+<p><code>javascript
+(function(){
+	$('pre').addClass('prettyprint');
+	prettyPrint();
+})();
+</code></p>
+
+<p>More information can be found in the original <a href="http://google-code-prettify.googlecode.com/svn/trunk/README.html">README.html</a></p>
+
+
+      </div>
+    </div>
+  </body>
+
+</html>
